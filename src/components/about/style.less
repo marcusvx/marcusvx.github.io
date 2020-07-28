@@ -1,0 +1,60 @@
+.aboutMe {
+  & .myPic {
+    margin-bottom: 20px;
+
+    & img {
+      max-width: 200px;
+      margin: auto;
+      border-radius: 50%;
+      border: 2px solid #dedede;
+      background: #fff;
+      padding: 7px;
+      box-shadow: 0 7px 10px #999;
+    }
+  }
+
+  & .introduction {
+    margin-bottom: 20px;
+
+    & p.introduce {
+      font-size: 16px;
+      color: #555;
+      margin-bottom: 20px;
+      text-transform: capitalize;
+    }
+  }
+
+  & .personalWrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+
+    & span {
+      margin: 5px 0 10px;
+      color: #555;
+    }
+
+    & .socialLink {
+      & img {
+        height: 32px;
+        width: 32px;
+      }
+
+      & span {
+        padding-left: 8px;
+      }
+    }
+  }
+
+  & .profile {
+    margin-bottom: 30px;
+  }
+
+  & .whyMe {
+    margin-bottom: 40px;
+  }
+}
