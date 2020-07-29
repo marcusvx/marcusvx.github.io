@@ -2,3 +2,4 @@ node_modules
 /build
 /*.log
 src/assets/.DS_Store
+.DS_Store

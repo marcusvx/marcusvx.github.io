@@ -7,57 +7,27 @@ import style from "./style";
 const PieChart = (props) => {
   const { percent, title } = props;
   const chartRef = createRef();
-  const [observer, setObserver] = useState();
-
-  const callback = (entries, observer) => {
-    const entry = entries[0] || {};
-    const { isIntersecting, intersectionRatio } = entry;
-    const isInViewport =
-      typeof isIntersecting !== "undefined"
-        ? isIntersecting
-        : intersectionRatio > 0;
-
-    if (isInViewport) {
-      EasyPieChart(entry.target, {
-        barColor: "#eaeaea",
-        trackColor: false,
-        scaleColor: false,
-        lineWidth: 10,
-        lineCap: "round",
-        size: 150,
-        animate: 1500,
-      });
-
-      const numberRef = entry.target.children[0].children[0];
-      new CountUp(numberRef, percent).start();
-
-      observer.unobserve(entry.target);
-      observer.disconnect();
-    }
-  };
+  const numberRef = createRef();
 
   useEffect(() => {
-    if (!observer) {
-      const obs = new IntersectionObserver(callback, {
-        rootMargin: "10px",
-        threshold: 0.9,
-      });
+    EasyPieChart(chartRef.current, {
+      barColor: "#eaeaea",
+      trackColor: false,
+      scaleColor: false,
+      lineWidth: 10,
+      lineCap: "round",
+      size: 150,
+      animate: 1500,
+    });
 
-      setObserver(obs);
-
-      obs.observe(chartRef.current);
-    }
-  }, [percent, title, chartRef.current]);
+    new CountUp(numberRef.current, percent).start();
+  }, [percent, title, chartRef.current, numberRef.current]);
 
   return (
     <>
-      <div
-        class={style.chart}
-        ref={chartRef}
-        data-percent={percent}
-      >
+      <div class={style.chart} ref={chartRef} data-percent={percent}>
         <span>
-          <span>0</span> %
+          <span ref={numberRef}>0</span> %
         </span>
       </div>
       <h2>{title}</h2>

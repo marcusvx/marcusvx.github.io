@@ -1,0 +1,10 @@
+[
+  { "value": 85, "label": "SOLID Principle" },
+  { "value": 80, "label": "Domain Driven Design" },
+  { "value": 75, "label": "Kotlin" },
+  { "value": 65, "label": "TDD" },
+  { "value": 70, "label": "React" },
+  { "value": 80, "label": "Agile Principles" },
+  { "value": 55, "label": "CI/CD" },
+  { "value": 90, "label": "Angular" }
+]
