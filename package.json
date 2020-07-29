@@ -31,11 +31,14 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.14.0",
+    "bootstrap": "^3.4.1",
+    "countup.js": "^2.0.6",
     "easy-pie-chart": "^2.1.7",
     "less": "^3.12.2",
     "preact": "^10.3.2",
     "preact-render-to-string": "^5.1.4",
-    "preact-router": "^3.2.1"
+    "preact-router": "^3.2.1",
+    "react-in-viewport": "^1.0.0-alpha.14"
   },
   "jest": {
     "preset": "jest-preset-preact",
