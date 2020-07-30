@@ -1,0 +1,128 @@
+[
+  {
+    "company": "Thoughtworks",
+    "start": "2019-02",
+    "end": null,
+    "title": "Senior Consultant Developer",
+    "description": ["Work as consultant developer for financial client."],
+    "keywords": [
+      "Kotlin",
+      "React",
+      "AWS",
+      "Microservices",
+      "Microfrontends",
+      "GraphQL"
+    ]
+  },
+  {
+    "company": "Itaú Unibanco",
+    "start": "2018-11",
+    "end": "2019-02",
+    "title": "Solutions Architect",
+    "description": [
+      "Working as a Solution Architect for the largest bank in Brazil, being allocated in the community that handles channels for credit card customers, I had the opportunity to learn how the core applications for card processing were designed and implemented, so I could help engineers and developers implement new features following the bank best practices, with maximum reusability and scalability. Despite the short experience, I had the opportunity to participate in many emerging features, drawing solution diagrams, pointing the right tools and frameworks for developers, detecting architecture flaws and technology debts and instructing how to resolve them."
+    ],
+    "keywords": [
+      "Java",
+      "Spring",
+      "Apache Camel",
+      "Springboot",
+      ".Net Framework"
+    ]
+  },
+  {
+    "company": "Netbiis Software",
+    "start": "2017-06",
+    "end": "2018-11",
+    "title": "Senior Fullstack Developer",
+    "description": [
+      "Small brazilian software company delivering solutions to clients all around the world, worked as full-stack developer and eventually as a software architect and lead developer. Initially, fully allocated developing alone all application solutions for a Californian startup, participating in all phases of development, from concept to delivery. For this particular client, backend services were developed using REST API's, including integration with timesheet software like Homebase and ADB. Fronted development was done using Angular for web applications and Ionic and Android Native for mobile development. As a software architect I helped defining patterns and architecture principles for a restructuring of the application core of the main client of the company. The software is a B2B solution for travel companies, used to find hotel availabilities, car rental, tickets and transfers. All backend was developed using .NET Core and the DDD approach was used to build separate microservices, to handle different business domains. All frontend development uses Angular 5+. Besides coding, I had a participation reviewing code, assuring that defined patterns were followed and helping other developers (pair programming)."
+    ],
+    "keywords": [".NET Core", "Nodejs", "Angular", "Ionic", "Android"]
+  },
+  {
+    "company": "Aurea Software",
+    "start": "2016-06",
+    "end": "2017-06",
+    "title": "Software Engineer",
+    "description": [
+      "One of the largest software companies in the world. Member of a team focused on Unit testing and code quality improvement for many different projects written in C# and Java. Responsible for code-refactoring, writing unit and integration tests, creating scripts to automate unit test run on CI/CD platforms and for defining patterns and strategies to cover existing applications with unit tests."
+    ],
+    "keywords": [
+      "TDD",
+      "Unit Tests",
+      "CI/CD",
+      "Test Automatization",
+      "Java",
+      ".Net Framework"
+    ]
+  },
+  {
+    "company": "Digitalmed Technology",
+    "start": "2012-09",
+    "end": "2016-06",
+    "title": "Senior Software Developer",
+    "description": [
+      "● Member of the development team of a huge laboratory information management system (LIS).",
+      "● Experience with technical leadership, code reviewing and architecture definition. ",
+      "● Main responsible for performance improvements and tech advice for new team members ",
+      "● Participation during evolution of a complex monolith application to microservices, allowing better scalability and availability ",
+      "● Large and complex application, with many modules and environments, developed using C#, ASP.Net (WebForms, MVC and Web.API), NHibernate, WCF, Windows Forms, Silverlight, Windows Services, tons of pure Javascript, jQuery, Angular JS, among others."
+    ],
+    "keywords": [
+      ".NET Framework",
+      "Vanilla JS",
+      "AWS",
+      "AngularJS",
+      "ASP.NET Web API",
+      "Tech Leading",
+      "Windows Services",
+      "Windows Forms",
+      "WCF",
+      "Silverlight"
+    ]
+  },
+  {
+    "company": "Adapt Solutions",
+    "start": "2011-01",
+    "end": "2012-09",
+    "title": "Software Developer",
+    "description": [
+      "Developer hired to work on improvements and new features for a public school management application. Main responsible for creating a dynamic reporting system, used by teachers and directors to gather student data, generate statistics and charts. Web application developed using ASP.Net Webforms, SQL Server, jQuery and Ajax."
+    ],
+    "keywords": [
+      ".NET Framework",
+      "ASP.NET Webforms",
+      "JQuery",
+      "ASP.NET MVC",
+      "SQL Server"
+    ]
+  },
+  {
+    "company": "CWI Software",
+    "start": "2010-06",
+    "end": "2011-01",
+    "title": "Software Developer",
+    "description": [
+      "Outsourced developer working for a banking company, developing integrations between legacy systems and new applications being developed Participation developing an application using SOA architecture with WCF and WPF front ends."
+    ],
+    "keywords": ["WPF", "WCF", "System Integrations", "SOA", "SQL Server"]
+  },
+  {
+    "company": "Seeker Technology",
+    "start": "2008-09",
+    "end": "2010-06",
+    "title": "Junior Software Developer",
+    "description": [
+      "Hired as developer to work in a human resource application used to control recruitment processes. Recruiters could search with complex filters for specific candidate profiles and manage all communication between recruiters and candidates. Candidates could create, import and maintain their resumes within the platform and even import information from Linkedin. Responsible for adding a new feature that allowed recruiters search text inside PDF and Word Documents saved on the database using full text search."
+    ],
+    "keywords": [
+      "ASP.NET Webforms",
+      "JQuery",
+      "SQL Server",
+      "VB.NET",
+      "IIS",
+      "WCF"
+    ]
+  }
+]
