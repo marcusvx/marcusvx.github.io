@@ -1,0 +1,40 @@
+@import "../../style/index.less";
+@import "../../style/variables.less";
+
+.sectionHeader {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 12px;
+
+  .subtitle {
+    position: relative;
+
+    &.darkBg {
+      color: @white;
+    }
+  }
+
+  .secTitle {
+    margin-bottom: 60px;
+  }
+
+  .mainHeading {
+    &:extend(.main-heading);
+    margin: 0;
+  }
+
+  .headingLine {
+    background: @colorDefault;
+    display: inline-block;
+    height: 3px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    position: relative;
+    width: 100px;
+
+    &.darkBg {
+      background: @white;
+    }
+  }
+}

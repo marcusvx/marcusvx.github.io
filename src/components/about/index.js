@@ -1,14 +1,15 @@
 import style from "./style";
 import photo from "../../assets/img/photo.jpg";
 import Accordion from "../accordion";
+import SectionHeader from "../sectionHeader";
 
 const About = () => {
   return (
-    <div class={style.aboutMe + " clearfix section"} id="about_me">
-      <div class="container">
-        <div class="row">
+    <section class={style.aboutMe} id="about_me">
+      <div class={style.container}>
+        <div class={style.row}>
           <div
-            class={style.myPic + " center col-sm-4 col-xs-12"}
+            class={style.myPic}
             data-aos="fade-in"
             data-aos-offset="200"
             data-aos-duration="500"
@@ -16,51 +17,47 @@ const About = () => {
             <img src={photo} alt="my profile" />
           </div>
           <div
-            class={style.introduction + " col-sm-8 col-xs-12"}
+            class={style.introduction}
             data-aos="fade-in"
             data-aos-offset="200"
             data-aos-duration="500"
           >
-            <h2 class="main-heading">Marcus Vinicius Ximenes</h2>
-            <div class="heading-line"></div>
-            <p class={style.introduce}>Developer</p>
-            <p class="intro">
-              <p>
-                Professional software developer with 11+ years experience
-                participating in the complete product development lifecycle of
-                successfully launched applications of different sizes and
-                complexities. Passionate about software architecture, clean
-                code, TDD and cloud computing.
-              </p>
-              <p>
-                As a backend developer, technologies most used includes .Net
-                Core, Java and Node.js.
-              </p>
-              <p>
-                As frontend developer, most used technologies includes Angular
-                4+, React and vanilla Javascript .
-              </p>
-              <p>
-                Some minor experience in mobile development for native Android
-                and hybrid development using Ionic.
-              </p>
-              <p>
-                Experience with technical leading, always willing to share
-                knowledge and providing help by being technical reference among
-                other developers.
-              </p>
+            <SectionHeader title="Marcus Vinicius Ximenes" />
+
+            <p>
+              Professional software developer with 11+ years experience
+              participating in the complete product development lifecycle of
+              successfully launched applications of different sizes and
+              complexities. Passionate about software architecture, clean code,
+              TDD and cloud computing.
+            </p>
+            <p>
+              As a backend developer, technologies most used includes .Net Core,
+              Java and Node.js.
+            </p>
+            <p>
+              As frontend developer, most used technologies includes Angular 4+,
+              React and vanilla Javascript .
+            </p>
+            <p>
+              Some minor experience in mobile development for native Android and
+              hybrid development using Ionic.
+            </p>
+            <p>
+              Experience with technical leading, always willing to share
+              knowledge and providing help by being technical reference among
+              other developers.
             </p>
           </div>
         </div>
-        <div class="row">
+        <div class={style.row}>
           <div
-            class={style.profile + " col-sm-4 col-xs-12"}
+            class={style.profile}
             data-aos="fade-in"
             data-aos-offset="200"
             data-aos-duration="500"
           >
-            <h3 class="main-heading">reach me</h3>
-            <div class="heading-line"></div>
+            <SectionHeader title="Reach Me" />
             <div class={style.personalWrapper}>
               <span>
                 <a
@@ -115,7 +112,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

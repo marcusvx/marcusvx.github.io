@@ -1,4 +1,8 @@
+@import "../../style/index.less";
+
 .experiences {
+  &:extend(.section);
+
   h2 {
     color: rgb(30, 30, 30);
   }
@@ -32,6 +36,23 @@
     }
 
     .timelineBlock {
+      .clearfix();
+
+      @media (min-width: 767px) {
+        &:nth-child(even) {
+          .content {
+            float: right;
+            &::before {
+              content: "";
+              right: 44%;
+              left: inherit;
+              border-right: 15px solid #222;
+              border-left: none;
+            }
+          }
+        }
+      }
+
       position: relative;
       margin-bottom: 40px;
 
@@ -58,6 +79,7 @@
         color: #222;
         background: #222;
         text-align: left;
+        border-radius: 4px;
 
         h3 {
           margin: 0 auto;
@@ -92,14 +114,17 @@
           border-bottom: 15px solid transparent;
         }
 
-        &.right {
-          float: right;
+        @media (max-width: 767px) {
+          width: 100%;
+          margin-top: 63px;
+
           &::before {
-            content: "";
-            right: 44%;
-            left: inherit;
-            border-right: 15px solid #222;
-            border-left: none;
+            left: 50%;
+            top: 33px;
+            margin-left: -15px;
+            border-left: 15px solid transparent;
+            border-right: 15px solid transparent;
+            border-bottom: 15px solid #222;
           }
         }
       }

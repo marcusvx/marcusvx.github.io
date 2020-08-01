@@ -1,25 +1,20 @@
-import { h } from "preact";
 import style from "./style";
 
 const Hero = () => (
-  <div
-    id="hero"
-    class={style.hero + " full-size-hero has-overlay has-bg"}
-    data-bg-url="/img/code-bg.jpg"
-  >
-    <div class={style.content + " center"}>
-      <div class="container">
+  <section id="hero" class={style.hero}>
+    <div class={style.content}>
+      <div class={style.container}>
         <h1>I am Marcus</h1>
         <p>And I'm a software developer</p>
-        <a class="main-btn white-btn" href="#about_me">
+        <a class={style.button} href="#about_me">
           Read more
         </a>
-        <a class="main-btn white-btn" href="#contact_me">
+        <a class={style.button} href="#contact_me">
           Contact Me
         </a>
       </div>
     </div>
-  </div>
+  </section>
 );
 
 export default Hero;

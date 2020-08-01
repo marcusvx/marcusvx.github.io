@@ -1,35 +1,46 @@
+@import "../../style/index.less";
+
 .technicalSkills {
+  &:extend(.has-pattern all);
+  &:extend(.section);
+  .clearfix();
+
+  .container {
+    &:extend(.container);
+  }
+
   background: url(../../assets/img/coffee-bg.jpg);
   background-size: cover;
+  position: relative;
 
   h2 {
     color: #eaeaea;
     position: relative;
   }
 
-  p.title {
-    color: #eaeaea;
-    position: relative;
-  }
-
   .headingLine {
+    &:extend(.heading-line);
     background: #fff;
   }
 
   .skillsWrapper {
+    .clearfix();
     margin-top: 40px;
-  }
 
-  .skill {
-    margin-bottom: 40px;
+    .skill {
+      &:extend(.col-md-3);
+      &:extend(.col-sm-6);
+      margin-bottom: 40px;
 
-    h2 {
-      margin-top: 10px;
-      text-transform: uppercase;
+      h2 {
+        margin-top: 10px;
+        text-transform: uppercase;
+      }
     }
   }
 
   .otherSkills {
+    &:extend(.row);
     margin-top: 40px;
   }
 }

@@ -1,9 +1,9 @@
-import style from "./style";
 import Hero from "../../components/hero";
 import About from "../../components/about";
 import Skills from "../../components/skills";
 import Experiences from "../../components/experiences";
 import Quote from "../../components/quote";
+import Contact from "../../components/contact";
 
 const Home = () => (
   <Fragment>
@@ -17,6 +17,7 @@ const Home = () => (
             understand."
       author="Martin Fowler"
     />
+    <Contact />
   </Fragment>
 );
 

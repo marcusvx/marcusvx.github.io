@@ -1,4 +1,10 @@
+@import "../../style/index.less";
+
 .mainHeaderWrapper {
+  .container {
+    &:extend(.container);
+  }
+
   position: fixed;
   z-index: 999;
   top: 0;
@@ -16,8 +22,8 @@
 
     & .navbarBrand {
       padding: 8px 0;
-      font-size: 2.8rem;
-      line-height: 20px;
+      font-size: 1.8rem;
+      line-height: 32px;
       height: 50px;
 
       & i {

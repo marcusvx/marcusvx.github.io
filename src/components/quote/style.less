@@ -1,8 +1,15 @@
+@import "../../style/index.less";
+
 .quote {
+  &:extend(.has-overlay all);
   padding: 80px 0;
   background-image: url(../../assets/img/bg-city-scape.jpg);
 
-  .qouteWrapper {
+  .container {
+    &:extend(.container);
+  }
+
+  .quoteWrapper {
     text-align: center;
     color: #fff;
     position: relative;

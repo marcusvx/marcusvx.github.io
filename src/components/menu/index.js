@@ -20,29 +20,19 @@ const Menu = () => {
         <nav class={style.mainMenu}>
           <ul>
             <li>
-              <a class="scroll-link" href="#hero">
-                Home
-              </a>
+              <a href="#hero">Home</a>
             </li>
             <li>
-              <a class="scroll-link" href="#about_me">
-                about me
-              </a>
+              <a href="#about_me">about me</a>
             </li>
             <li>
-              <a class="scroll-link" href="#skills">
-                skills
-              </a>
+              <a href="#skills">skills</a>
             </li>
             <li>
-              <a class="scroll-link" href="#experiences">
-                Experiences
-              </a>
+              <a href="#experiences">Experiences</a>
             </li>
             <li>
-              <a class="scroll-link" href="#contact_me">
-                Contact Me
-              </a>
+              <a href="#contact_me">Contact Me</a>
             </li>
           </ul>
 

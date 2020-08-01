@@ -27,7 +27,7 @@ const PieChart = (props) => {
     <>
       <div class={style.chart} ref={chartRef} data-percent={percent}>
         <span>
-          <span ref={numberRef}>0</span> %
+          <span ref={numberRef}></span> %
         </span>
       </div>
       <h2>{title}</h2>

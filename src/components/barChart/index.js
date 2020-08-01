@@ -10,7 +10,7 @@ const BarChart = (props) => {
   }, [value]);
 
   return (
-    <div class={style.barGroup + " col-md-6 col-xs-12"} data-max="100">
+    <div class={style.barGroup} data-max="100">
       <p class={style.barLabel}>{label}</p>
       <div
         ref={numberRef}
