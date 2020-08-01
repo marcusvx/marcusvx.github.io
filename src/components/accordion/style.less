@@ -1,3 +1,5 @@
+@import "../../style/variables.less";
+
 .accordion {
   text-align: left;
   line-height: 1.8;
@@ -19,7 +21,7 @@
         position: absolute;
         right: 20px;
         top: 50%;
-        color: #181818;
+        color: @dark;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
@@ -29,9 +31,9 @@
       }
 
       &.active {
-        background: #181818;
+        background: @dark;
         color: #fff;
-        border-color: #181818;
+        border-color: @dark;
 
         & i {
           -webkit-transform: translateY(-50%) rotate(45deg);

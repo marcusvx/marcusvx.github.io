@@ -2,6 +2,7 @@ import { h, Component } from "preact";
 import { Router } from "preact-router";
 
 import Header from "./header";
+import Footer from "./footer";
 
 import Home from "../routes/home";
 import AOS from "aos";
@@ -23,6 +24,7 @@ export default class App extends Component {
         <Router onChange={this.handleRoute}>
           <Home path="/" />
         </Router>
+        <Footer />
       </div>
     );
   }

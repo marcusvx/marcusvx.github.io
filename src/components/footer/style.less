@@ -1,0 +1,128 @@
+@import "../../style/variables.less";
+@import "../../style/index.less";
+
+.footer {
+  background: @dark;
+  text-align: center;
+
+  .footerContainer {
+    &:extend(.container);
+    .clearfix();
+
+    .footerRow {
+      &:extend(.row);
+
+      .followMe {
+        .links {
+          &:extend(.col-md-12);
+          &:extend(.col-xs-12);
+        }
+
+        background: @white;
+        border-radius: 0 0 10px 10px;
+        display: inline-block;
+        font-weight: 700;
+        padding: 10px 20px;
+        position: relative;
+        text-transform: capitalize;
+        width: 130px;
+
+        &:before {
+          border-right: 10px solid @lightGray;
+          border-top: 10px solid transparent;
+          content: "";
+          left: -10px;
+          position: absolute;
+          top: -10px;
+        }
+
+        &:after {
+          border-left: 10px solid @lightGray;
+          border-top: 10px solid transparent;
+          content: "";
+          left: 130px;
+          position: absolute;
+          top: -10px;
+        }
+      }
+
+      .iconWrapper {
+        line-height: 1;
+        margin-bottom: 40px;
+        margin-top: 40px;
+        text-align: center;
+
+        .icon {
+          -webkit-transition: all 0.3s;
+          background: #4c4c4c;
+          color: @white;
+          display: inline-block;
+          font-size: 1.5em;
+          height: 50px;
+          line-height: 50px;
+          overflow: hidden;
+          position: relative;
+          transition: all 0.3s;
+          width: 50px;
+
+          i {
+            -webkit-transition: all 0.3s;
+            display: block;
+            line-height: inherit;
+            position: relative;
+            transition: all 0.3s;
+          }
+          &:hover {
+            i {
+              &:first-child {
+                margin-top: -50px;
+              }
+            }
+          }
+        }
+        .icon.fb {
+          &:hover {
+            background: #3b5998;
+          }
+        }
+        .icon.tw {
+          &:hover {
+            background: #55acee;
+          }
+        }
+        .icon.gh {
+          &:hover {
+            background: @colorDefault;
+          }
+        }
+        .icon.gp {
+          &:hover {
+            background: #dc4e41;
+          }
+        }
+        .icon.lin {
+          &:hover {
+            background: #0077b5;
+          }
+        }
+        .icon.so {
+          &:hover {
+            background: #f48024;
+          }
+        }
+      }
+      .copyright {
+        &:extend(.col-md-12);
+        &:extend(.col-xs-12);
+
+        border-top: 1px solid @colorDefault;
+        padding: 15px 0;
+
+        h6 {
+          color: #777777;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}

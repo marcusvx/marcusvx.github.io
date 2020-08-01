@@ -15,148 +15,145 @@
   padding-bottom: 40px;
 
   .container {
-    &:extend(.container all);
+    &:extend(.container);
+    .clearfix();
   }
 
   .form_wrapper {
-    width: 90%;
     margin-top: 40px;
     margin: 0 auto;
 
-    @media (min-width: 768px) {
-      width: 70%;
-    }
+    .formCol {
+      &:extend(.col-md-8);
+      &:extend(.col-md-offset-2);
 
-    @media (min-width: 900px) {
-      width: 50%;
-    }
-  }
-
-  .form_group {
-    &:extend(.form-group);
-    margin-bottom: 20px;
-    position: relative;
-
-    .text_danger {
-      color: @danger;
-      ul {
-        list-style: none;
-      }
-    }
-  }
-  .form_control {
-    &:extend(.form-control all);
-    border-radius: 0;
-    border: 1px solid @gray;
-    color: #777777;
-    height: 45px;
-    padding-left: 20px;
-    transition: all 0.3s ease-in-out;
-    &:focus {
-      border: 1px solid #aaaaaa;
-      box-shadow: none;
-      color: @darkGray;
-      outline: none;
-    }
-    &:focus + label {
-      background: @white;
-      color: @gray;
-      font-size: 14px;
-      padding: 0 10px;
-      top: 0;
-    }
-  }
-  .form_control + label {
-    color: #5f5f5f;
-    font-size: 16px;
-    font-weight: 300;
-    left: 30px;
-    pointer-events: none;
-    position: absolute;
-    top: 23px;
-    transform: translateY(-50%);
-    transition: all 0.15s ease-out;
-  }
-  .text_area_container {
-    margin: 10px auto;
-  }
-  .form_control.has_value + label {
-    background: @white;
-    color: @gray;
-    font-size: 14px;
-    padding: 0 10px;
-    top: 0;
-  }
-  textarea {
-    min-height: 240px;
-    padding-top: 15px;
-    resize: none;
-  }
-  .form_group.warning {
-    .form_control {
-      border-color: @danger;
-      &:focus + label {
-        color: @danger;
-      }
-    }
-    .form_control.has-value + label {
-      color: @danger;
-    }
-  }
-  .submit_button {
-    &:extend(.btn all);
-    background: @white;
-    border-radius: 0;
-    border: 1px solid @gray;
-    color: @darkGray;
-    display: block;
-    margin-top: 10px;
-    padding: 15px 0;
-    text-transform: uppercase;
-    transition: all 0.3s ease-in-out;
-    width: @fullWidth;
-    &:hover {
-      background: @dark;
-      border: 1px solid @dark;
-      color: @white;
-    }
-    &:active {
-      transform: translateY(3px);
-    }
-  }
-  .form_response {
-    color: #333333;
-    margin-top: 10px;
-  }
-  .contact_info {
-    margin-top: 40px;
-    .info {
-      margin-bottom: 40px;
-      i {
-        background: @white;
-        border-bottom: 4px solid rgba(233, 233, 233, 0.8);
-        border-radius: 0 0 100% 100%;
-        color: @dark;
-        display: block;
-        font-size: 2.5rem;
-        height: 80px;
-        line-height: 80px;
-        margin-bottom: -40px;
-        margin: 0 auto;
+      .form_group {
+        &:extend(.form-group);
+        margin-bottom: 20px;
         position: relative;
-        width: 80px;
-      }
-      .info_content {
-        border: 1px solid @gray;
-        padding: 50px 0 20px;
-        h3 {
-          color: @dark;
-          text-transform: capitalize;
+
+        .text_danger {
+          color: @danger;
+          ul {
+            list-style: none;
+          }
         }
-        span {
+      }
+      .form_control {
+        &:extend(.form-control all);
+        border-radius: 0;
+        border: 1px solid @gray;
+        color: #777777;
+        height: 45px;
+        padding-left: 20px;
+        transition: all 0.3s ease-in-out;
+        &:focus {
+          border: 1px solid #aaaaaa;
+          box-shadow: none;
           color: @darkGray;
-          display: block;
-          margin: 5px auto;
+          outline: none;
+        }
+        &:focus + label {
+          background: @white;
+          color: @gray;
+          font-size: 14px;
+          padding: 0 10px;
+          top: 0;
+        }
+      }
+      .form_control + label {
+        color: #5f5f5f;
+        font-size: 16px;
+        font-weight: 300;
+        left: 30px;
+        pointer-events: none;
+        position: absolute;
+        top: 23px;
+        transform: translateY(-50%);
+        transition: all 0.15s ease-out;
+      }
+      .text_area_container {
+        margin: 10px auto;
+      }
+      .form_control.has_value + label {
+        background: @white;
+        color: @gray;
+        font-size: 14px;
+        padding: 0 10px;
+        top: 0;
+      }
+      textarea {
+        min-height: 240px;
+        padding-top: 15px;
+        resize: none;
+      }
+      .form_group.warning {
+        .form_control {
+          border-color: @danger;
+          &:focus + label {
+            color: @danger;
+          }
+        }
+        .form_control.has-value + label {
+          color: @danger;
+        }
+      }
+      .submit_button {
+        &:extend(.btn all);
+        background: @white;
+        border-radius: 0;
+        border: 1px solid @gray;
+        color: @darkGray;
+        display: block;
+        margin-top: 10px;
+        padding: 15px 0;
+        text-transform: uppercase;
+        transition: all 0.3s ease-in-out;
+        width: @fullWidth;
+        &:hover {
+          background: @dark;
+          border: 1px solid @dark;
+          color: @white;
+        }
+        &:active {
+          transform: translateY(3px);
+        }
+      }
+      .form_response {
+        color: #333333;
+        margin-top: 10px;
+      }
+      .contact_info {
+        margin-top: 40px;
+        .info {
+          margin-bottom: 40px;
+          i {
+            background: @white;
+            border-bottom: 4px solid rgba(233, 233, 233, 0.8);
+            border-radius: 0 0 100% 100%;
+            color: @dark;
+            display: block;
+            font-size: 2.5rem;
+            height: 80px;
+            line-height: 80px;
+            margin-bottom: -40px;
+            margin: 0 auto;
+            position: relative;
+            width: 80px;
+          }
+          .info_content {
+            border: 1px solid @gray;
+            padding: 50px 0 20px;
+            h3 {
+              color: @dark;
+              text-transform: capitalize;
+            }
+            span {
+              color: @darkGray;
+              display: block;
+              margin: 5px auto;
+            }
+          }
         }
       }
     }

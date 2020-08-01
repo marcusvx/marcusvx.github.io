@@ -22,7 +22,12 @@ const Contact = () => {
         />
 
         <div class={style.form_wrapper}>
-          <div data-aos="fade-in" data-aos-offset="200" data-aos-duration="500">
+          <div
+            class={style.formCol}
+            data-aos="fade-in"
+            data-aos-offset="200"
+            data-aos-duration="500"
+          >
             <form data-toggle="validator" role="form" id="contact-form">
               <div class={style.form_group}>
                 <input
