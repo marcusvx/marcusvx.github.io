@@ -1,24 +1,51 @@
 @import "../../style/variables.less";
+@import "../../style/index.less";
+
+@import "bootstrap/less/mixins/forms.less";
+@import "bootstrap/less/mixins/buttons.less";
+@import "bootstrap/less/mixins/vendor-prefixes.less";
+@import "bootstrap/less/mixins/tab-focus.less";
+@import "bootstrap/less/mixins/opacity.less";
+@import "bootstrap/less/forms.less";
+@import "bootstrap/less/buttons.less";
 
 .contact {
+  text-align: center;
   margin-top: 40px;
   padding-bottom: 40px;
-  .formWrapper {
-    margin-top: 40px;
+
+  .container {
+    &:extend(.container all);
   }
-  .formGroup {
+
+  .form_wrapper {
+    width: 90%;
+    margin-top: 40px;
+    margin: 0 auto;
+
+    @media (min-width: 768px) {
+      width: 70%;
+    }
+
+    @media (min-width: 900px) {
+      width: 50%;
+    }
+  }
+
+  .form_group {
+    &:extend(.form-group);
     margin-bottom: 20px;
     position: relative;
-    .textDanger {
+
+    .text_danger {
       color: @danger;
       ul {
         list-style: none;
       }
     }
   }
-  .formControl {
-    -o-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
+  .form_control {
+    &:extend(.form-control all);
     border-radius: 0;
     border: 1px solid @gray;
     color: #777777;
@@ -39,7 +66,7 @@
       top: 0;
     }
   }
-  .formControl + label {
+  .form_control + label {
     color: #5f5f5f;
     font-size: 16px;
     font-weight: 300;
@@ -50,10 +77,10 @@
     transform: translateY(-50%);
     transition: all 0.15s ease-out;
   }
-  .textAreaContainer {
+  .text_area_container {
     margin: 10px auto;
   }
-  .formControl.hasValue + label {
+  .form_control.has_value + label {
     background: @white;
     color: @gray;
     font-size: 14px;
@@ -65,20 +92,19 @@
     padding-top: 15px;
     resize: none;
   }
-  .formGroup.warning {
-    .formControl {
+  .form_group.warning {
+    .form_control {
       border-color: @danger;
       &:focus + label {
         color: @danger;
       }
     }
-    .formControl.has-value + label {
+    .form_control.has-value + label {
       color: @danger;
     }
   }
-  .submitBtn {
-    -o-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
+  .submit_button {
+    &:extend(.btn all);
     background: @white;
     border-radius: 0;
     border: 1px solid @gray;
@@ -95,18 +121,14 @@
       color: @white;
     }
     &:active {
-      -moz-transform: translateY(3px);
-      -ms-transform: translateY(3px);
-      -o-transform: translateY(3px);
-      -webkit-transform: translateY(3px);
       transform: translateY(3px);
     }
   }
-  .formResponse {
+  .form_response {
     color: #333333;
     margin-top: 10px;
   }
-  .contactInfo {
+  .contact_info {
     margin-top: 40px;
     .info {
       margin-bottom: 40px;
@@ -124,7 +146,7 @@
         position: relative;
         width: 80px;
       }
-      .infoContent {
+      .info_content {
         border: 1px solid @gray;
         padding: 50px 0 20px;
         h3 {
