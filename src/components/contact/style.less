@@ -32,11 +32,10 @@
         margin-bottom: 20px;
         position: relative;
 
-        .text_danger {
+        .errorHelper {
+          &:extend(.help-block);
           color: @danger;
-          ul {
-            list-style: none;
-          }
+          text-align: left;
         }
       }
       .form_control {
