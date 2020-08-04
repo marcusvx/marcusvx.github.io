@@ -1,9 +1,6 @@
 import { Component } from "preact";
 import { Router } from "preact-router";
 
-import Header from "./header";
-import Footer from "./footer";
-
 import Home from "../routes/home";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -20,11 +17,9 @@ export default class App extends Component {
   render() {
     return (
       <div id="app">
-        <Header />
         <Router onChange={this.handleRoute}>
           <Home path="/" />
         </Router>
-        <Footer />
       </div>
     );
   }
