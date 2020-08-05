@@ -2,6 +2,7 @@ import style from "./style";
 import classNames from "classnames";
 import SectionHeader from "../sectionHeader";
 import { Component } from "preact";
+import axios from "axios";
 
 const MIN_LENGTH = 3;
 const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -18,6 +19,8 @@ class Contact extends Component {
       emailValid: false,
       messageValid: false,
       disableSubmit: true,
+      formResponse: "",
+      sendButtonText: "Send Message",
       errorMsg: {
         name: "",
         email: "",
@@ -84,9 +87,52 @@ class Contact extends Component {
     this.setState({ messageValid, errorMsg }, this.validateForm);
   };
 
-  handleSubmit(event) {
+  handleSubmit = (event) => {
     event.preventDefault();
-  }
+    this.setState({
+      disableSubmit: true,
+      sendButtonText: (
+        <>
+          Sending <i class="fas fa-circle-notch fa-spin"></i>
+        </>
+      ),
+    });
+
+    const data = {
+      name: this.state.name,
+      email: this.state.email,
+      message: this.state.message,
+    };
+
+    axios
+      .post("https://marcusvinicius.info/api/contact", data)
+      .then(() => {
+        this.setState({
+          name: "",
+          email: "",
+          message: "",
+          formResponse: "Message sent successfully",
+          disableSubmit: true,
+        });
+      })
+      .catch(() => {
+        this.setState({
+          formResponse: "Error sending message",
+          disableSubmit: false,
+        });
+      })
+      .then(() => {
+        this.setState({
+          sendButtonText: "Send Message",
+        });
+
+        window.setTimeout(() => {
+          this.setState({
+            formResponse: "",
+          });
+        }, 3000);
+      });
+  };
 
   render() {
     return (
@@ -173,10 +219,10 @@ class Contact extends Component {
                     onClick={this.handleSubmit}
                     disabled={this.state.disableSubmit}
                   >
-                    Send Your Message
+                    {this.state.sendButtonText}
                   </button>
                 </div>
-                <p class="form-response"></p>
+                <p class={style.formResponse}>{this.state.formResponse}</p>
               </form>
             </div>
           </div>
