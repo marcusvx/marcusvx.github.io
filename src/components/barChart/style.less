@@ -1,5 +1,6 @@
 @import "../../style/index.less";
 
+@barHeight: 15px;
 .barGroup {
   &:extend(.col-md-6);
   &:extend(.col-xs-12);
@@ -16,13 +17,14 @@
 }
 
 .barGroupBar {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 
   &.thick {
-    width: 0%;
-    height: 10px;
+    width: 0;
+    height: @barHeight;
     border-radius: 6px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
     transition: width 1s;
 
     &::before {
@@ -32,7 +34,7 @@
       z-index: 0;
       opacity: 0.1;
       width: 95%;
-      height: 10px;
+      height: @barHeight;
       border-radius: 6px;
       background: #fff;
     }

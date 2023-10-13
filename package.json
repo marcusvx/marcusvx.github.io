@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "preact build",
+    "build": "preact build --no-prerender",
     "serve": "sirv build --port 8080 --cors --single",
     "dev": "preact watch",
     "lint": "eslint src",
@@ -18,30 +18,31 @@
   },
   "devDependencies": {
     "enzyme": "^3.10.0",
-    "enzyme-adapter-preact-pure": "^2.0.0",
-    "eslint": "^6.0.1",
+    "enzyme-adapter-preact-pure": "^4.1.0",
+    "eslint": "^8.51.0",
     "eslint-config-preact": "^1.1.0",
     "identity-obj-proxy": "^3.0.0",
-    "jest": "^24.9.0",
-    "jest-preset-preact": "^1.0.0",
-    "less-loader": "^6.2.0",
+    "jest": "^29.7.0",
+    "jest-preset-preact": "^4.1.0",
+    "less-loader": "7",
     "preact-cli": "^3.0.0",
     "preact-render-spy": "^1.2.1",
-    "sirv-cli": "1.0.3"
+    "sirv-cli": "^2.0.2"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.14.0",
+    "@fortawesome/fontawesome-free": "^6.4.2",
     "aos": "^2.3.4",
-    "axios": "^0.19.2",
+    "axios": "^1.5.1",
     "bootstrap": "^3.4.1",
     "classnames": "^2.2.6",
     "countup.js": "^2.0.6",
     "easy-pie-chart": "^2.1.7",
-    "less": "^3.12.2",
+    "less": "^4.2.0",
     "preact": "^10.3.2",
-    "preact-render-to-string": "^5.1.4",
-    "preact-router": "^3.2.1",
-    "react-in-viewport": "^1.0.0-alpha.14"
+    "preact-render-to-string": "^6.2.2",
+    "preact-router": "^4.1.2",
+    "react-in-viewport": "^1.0.0-alpha.14",
+    "typewriter-effect": "^2.21.0"
   },
   "jest": {
     "preset": "jest-preset-preact",
