@@ -1,68 +1,43 @@
-import style from "./style";
-import axios from "axios";
-import AOS from "aos";
-import { Component } from "preact";
-import classNames from "classnames";
-import SectionHeader from "../sectionHeader";
+import style from './style.less';
+import axios from 'axios';
+import SectionHeader from '../sectionHeader';
+import { useEffect, useState } from 'preact/hooks';
 
-class Experiences extends Component {
-  constructor() {
-    super();
-    this.state = {
-      experiences: [],
-    };
-  }
+export default function Experiences() {
+  const [experiences, setExperiences] = useState([]);
 
-  componentDidMount() {
-    axios
-      .get("../../assets/json/experiences.json")
-      .then((response) => this.setState({ experiences: response.data }));
-  }
+  useEffect(() => {
+    axios.get('../../assets/json/experiences.json').then(response => setExperiences(response.data));
+  }, []);
 
-  componentDidUpdate() {
-    AOS.refreshHard();
-  }
+  return (
+    <section className={style.experiences} id="experiences">
+      <div className={style.container}>
+        <SectionHeader title="Work Experiences" subTitle="A short summary of my professional experience" />
 
-  render() {
-    return (
-      <section class={style.experiences} id="experiences">
-        <div class={style.container}>
-          <SectionHeader
-            title="Work Experiences"
-            subTitle="A short summary of my professional experience"
-          />
-
-          <div class={style.timeline}>
-            {this.state.experiences.length &&
-              this.state.experiences.map((item, index) => {
-                return (
-                  <div
-                    class={style.timelineBlock}
-                    data-aos="zoom-in"
-                    data-aos-duration="400"
-                    data-aos-offset="200"
-                  >
-                    <div class={style.icon}>
-                      <i class="fa fa-briefcase"></i>
-                    </div>
-                    <div class={style.content}>
-                      <h3>{item.company}</h3>
-                      <span class={style.duration}>
-                        [{item.start} : {item.end || "Actual"}]
-                      </span>
-                      <span class={style.jobTitle}>{item.title}</span>
-                      {item.description.map((desc) => (
-                        <p>{desc}</p>
-                      ))}
-                    </div>
+        <div className={style.timeline}>
+          {experiences.length &&
+            experiences.map((item, index) => {
+              return (
+                <div key={index} className={style.timelineBlock}>
+                  <div className={style.icon}>
+                    <i className="fa fa-briefcase" />
                   </div>
-                );
-              })}
-          </div>
+                  <div className={style.content}>
+                    <h3>{item.company}</h3>
+                    <span className={style.duration}>
+                      [{item.start} : {item.end || 'Actual'}]
+                    </span>
+                    <span className={style.jobTitle}>{item.title}</span>
+                    {item.description.map((desc, i) => (
+                      <p key={i}>{desc}</p>
+                    ))}
+                  </div>
+                </div>
+              );
+            })}
         </div>
-      </section>
-    );
-  }
+      </div>
+    </section>
+  );
 }
-
-export default Experiences;

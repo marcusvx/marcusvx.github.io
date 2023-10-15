@@ -1,12 +1,12 @@
-import style from "./style";
-import Menu from "../menu";
+import style from './style';
+import Menu from '../menu';
 
 const Header = () => (
-  <header class={style.mainHeaderWrapper}>
-    <div class={style.container}>
-      <div class={style.mainHeader}>
-        <a href="/" class={style.navbarBrand}>
-          <i class="fas fa-terminal"></i>
+  <header className={style.mainHeaderWrapper}>
+    <div className={style.container}>
+      <div className={style.mainHeader}>
+        <a href="/" className={style.navbarBrand}>
+          <i className="fas fa-terminal" />
           marcusvinicius.info
         </a>
 

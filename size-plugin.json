@@ -1,1 +1,433 @@
-[{"timestamp":1697229346056,"files":[{"filename":"bundle.f3d40.css","previous":17249,"size":0,"diff":-17249},{"filename":"bundle.*****.esm.js","previous":11965,"size":13676,"diff":1711},{"filename":"polyfills.*****.esm.js","previous":1969,"size":2316,"diff":347},{"filename":"route-home.chunk.ac0d0.css","previous":28108,"size":0,"diff":-28108},{"filename":"route-home.chunk.*****.esm.js","previous":38994,"size":58226,"diff":19232},{"filename":"sw-esm.js","previous":8266,"size":11698,"diff":3432},{"filename":"sw.js","previous":8266,"size":11695,"diff":3429},{"filename":"bundle.cfec6.css","previous":17249,"size":0,"diff":-17249},{"filename":"bundle.504d8.js","previous":11930,"size":0,"diff":-11930},{"filename":"polyfills.694cb.js","previous":2013,"size":0,"diff":-2013},{"filename":"route-home.chunk.9272d.css","previous":28108,"size":0,"diff":-28108},{"filename":"route-home.chunk.cf3fc.js","previous":39177,"size":0,"diff":-39177},{"filename":"bundle.8f82f.css","previous":0,"size":26121,"diff":26121},{"filename":"route-home.chunk.45e58.css","previous":0,"size":28928,"diff":28928},{"filename":"bundle.9b062.js","previous":0,"size":14224,"diff":14224},{"filename":"polyfills.26000.js","previous":0,"size":2416,"diff":2416},{"filename":"route-home.chunk.9f07a.js","previous":0,"size":60715,"diff":60715},{"filename":"index.html","previous":0,"size":1045,"diff":1045},{"filename":"200.html","previous":0,"size":1045,"diff":1045}]},{"timestamp":1596664572624,"files":[{"filename":"ssr-bundle.bdc31.css","previous":48243,"size":0,"diff":-48243},{"filename":"ssr-bundle.js","previous":53377,"size":0,"diff":-53377},{"filename":"bundle.f3d40.css","previous":0,"size":17249,"diff":17249},{"filename":"bundle.*****.esm.js","previous":0,"size":11965,"diff":11965},{"filename":"polyfills.*****.esm.js","previous":0,"size":1969,"diff":1969},{"filename":"route-home.chunk.ac0d0.css","previous":0,"size":28108,"diff":28108},{"filename":"route-home.chunk.*****.esm.js","previous":0,"size":38994,"diff":38994},{"filename":"sw-esm.js","previous":0,"size":8266,"diff":8266},{"filename":"sw.js","previous":0,"size":8266,"diff":8266},{"filename":"bundle.cfec6.css","previous":0,"size":17249,"diff":17249},{"filename":"bundle.504d8.js","previous":0,"size":11930,"diff":11930},{"filename":"polyfills.694cb.js","previous":0,"size":2013,"diff":2013},{"filename":"route-home.chunk.9272d.css","previous":0,"size":28108,"diff":28108},{"filename":"route-home.chunk.cf3fc.js","previous":0,"size":39177,"diff":39177}]},{"timestamp":1596664548282,"files":[{"filename":"bundle.cfec6.css","previous":17249,"size":0,"diff":-17249},{"filename":"bundle.*****.esm.js","previous":11965,"size":0,"diff":-11965},{"filename":"polyfills.*****.esm.js","previous":1969,"size":0,"diff":-1969},{"filename":"route-home.chunk.98a7e.css","previous":28107,"size":0,"diff":-28107},{"filename":"route-home.chunk.*****.esm.js","previous":38870,"size":0,"diff":-38870},{"filename":"sw-esm.js","previous":8266,"size":0,"diff":-8266},{"filename":"sw.js","previous":8266,"size":0,"diff":-8266},{"filename":"bundle.837c9.css","previous":17249,"size":0,"diff":-17249},{"filename":"bundle.03cc1.js","previous":11930,"size":0,"diff":-11930},{"filename":"polyfills.694cb.js","previous":2013,"size":0,"diff":-2013},{"filename":"route-home.chunk.29b53.css","previous":28107,"size":0,"diff":-28107},{"filename":"route-home.chunk.f63d7.js","previous":39034,"size":0,"diff":-39034},{"filename":"ssr-bundle.bdc31.css","previous":0,"size":48243,"diff":48243},{"filename":"ssr-bundle.js","previous":0,"size":53377,"diff":53377}]},{"timestamp":1596663284448,"files":[{"filename":"ssr-bundle.48693.css","previous":48241,"size":0,"diff":-48241},{"filename":"ssr-bundle.js","previous":53235,"size":0,"diff":-53235},{"filename":"bundle.cfec6.css","previous":0,"size":17249,"diff":17249},{"filename":"bundle.*****.esm.js","previous":0,"size":11965,"diff":11965},{"filename":"polyfills.*****.esm.js","previous":0,"size":1969,"diff":1969},{"filename":"route-home.chunk.98a7e.css","previous":0,"size":28107,"diff":28107},{"filename":"route-home.chunk.*****.esm.js","previous":0,"size":38870,"diff":38870},{"filename":"sw-esm.js","previous":0,"size":8266,"diff":8266},{"filename":"sw.js","previous":0,"size":8266,"diff":8266},{"filename":"bundle.837c9.css","previous":0,"size":17249,"diff":17249},{"filename":"bundle.03cc1.js","previous":0,"size":11930,"diff":11930},{"filename":"polyfills.694cb.js","previous":0,"size":2013,"diff":2013},{"filename":"route-home.chunk.29b53.css","previous":0,"size":28107,"diff":28107},{"filename":"route-home.chunk.f63d7.js","previous":0,"size":39034,"diff":39034}]},{"timestamp":1596663261457,"files":[{"filename":"bundle.cfec6.css","previous":17249,"size":0,"diff":-17249},{"filename":"bundle.*****.esm.js","previous":11962,"size":0,"diff":-11962},{"filename":"polyfills.*****.esm.js","previous":1969,"size":0,"diff":-1969},{"filename":"route-home.chunk.ed49a.css","previous":28107,"size":0,"diff":-28107},{"filename":"route-home.chunk.*****.esm.js","previous":38800,"size":0,"diff":-38800},{"filename":"sw-esm.js","previous":8266,"size":0,"diff":-8266},{"filename":"sw.js","previous":8266,"size":0,"diff":-8266},{"filename":"bundle.006ad.js","previous":11928,"size":0,"diff":-11928},{"filename":"polyfills.694cb.js","previous":2013,"size":0,"diff":-2013},{"filename":"route-home.chunk.b499f.css","previous":28107,"size":0,"diff":-28107},{"filename":"route-home.chunk.b580a.js","previous":38963,"size":0,"diff":-38963},{"filename":"ssr-bundle.48693.css","previous":0,"size":48241,"diff":48241},{"filename":"ssr-bundle.js","previous":0,"size":53235,"diff":53235}]},{"timestamp":1596574783348,"files":[{"filename":"ssr-bundle.8bc5c.css","previous":48241,"size":0,"diff":-48241},{"filename":"ssr-bundle.js","previous":53157,"size":0,"diff":-53157},{"filename":"bundle.cfec6.css","previous":0,"size":17249,"diff":17249},{"filename":"bundle.*****.esm.js","previous":0,"size":11962,"diff":11962},{"filename":"polyfills.*****.esm.js","previous":0,"size":1969,"diff":1969},{"filename":"route-home.chunk.ed49a.css","previous":0,"size":28107,"diff":28107},{"filename":"route-home.chunk.*****.esm.js","previous":0,"size":38800,"diff":38800},{"filename":"sw-esm.js","previous":0,"size":8266,"diff":8266},{"filename":"sw.js","previous":0,"size":8266,"diff":8266},{"filename":"bundle.006ad.js","previous":0,"size":11928,"diff":11928},{"filename":"polyfills.694cb.js","previous":0,"size":2013,"diff":2013},{"filename":"route-home.chunk.b499f.css","previous":0,"size":28107,"diff":28107},{"filename":"route-home.chunk.b580a.js","previous":0,"size":38963,"diff":38963}]},{"timestamp":1596574757448,"files":[{"filename":"bundle.61496.css","previous":22790,"size":0,"diff":-22790},{"filename":"bundle.*****.esm.js","previous":19284,"size":0,"diff":-19284},{"filename":"polyfills.*****.esm.js","previous":1969,"size":0,"diff":-1969},{"filename":"route-home.chunk.5e6d5.css","previous":23541,"size":0,"diff":-23541},{"filename":"route-home.chunk.*****.esm.js","previous":33153,"size":0,"diff":-33153},{"filename":"sw-esm.js","previous":8266,"size":0,"diff":-8266},{"filename":"sw.js","previous":8266,"size":0,"diff":-8266},{"filename":"bundle.27282.css","previous":22790,"size":0,"diff":-22790},{"filename":"bundle.19f85.js","previous":19248,"size":0,"diff":-19248},{"filename":"polyfills.694cb.js","previous":2013,"size":0,"diff":-2013},{"filename":"route-home.chunk.d1d87.css","previous":23541,"size":0,"diff":-23541},{"filename":"route-home.chunk.103ba.js","previous":33281,"size":0,"diff":-33281},{"filename":"ssr-bundle.8bc5c.css","previous":0,"size":48241,"diff":48241},{"filename":"ssr-bundle.js","previous":0,"size":53157,"diff":53157}]},{"timestamp":1596332051269,"files":[{"filename":"ssr-bundle.497b0.css","previous":48281,"size":0,"diff":-48281},{"filename":"ssr-bundle.js","previous":52981,"size":0,"diff":-52981},{"filename":"bundle.61496.css","previous":0,"size":22790,"diff":22790},{"filename":"bundle.*****.esm.js","previous":0,"size":19284,"diff":19284},{"filename":"polyfills.*****.esm.js","previous":0,"size":1969,"diff":1969},{"filename":"route-home.chunk.5e6d5.css","previous":0,"size":23541,"diff":23541},{"filename":"route-home.chunk.*****.esm.js","previous":0,"size":33153,"diff":33153},{"filename":"sw-esm.js","previous":0,"size":8266,"diff":8266},{"filename":"sw.js","previous":0,"size":8266,"diff":8266},{"filename":"bundle.27282.css","previous":0,"size":22790,"diff":22790},{"filename":"bundle.19f85.js","previous":0,"size":19248,"diff":19248},{"filename":"polyfills.694cb.js","previous":0,"size":2013,"diff":2013},{"filename":"route-home.chunk.d1d87.css","previous":0,"size":23541,"diff":23541},{"filename":"route-home.chunk.103ba.js","previous":0,"size":33281,"diff":33281}]},{"timestamp":1596332028597,"files":[{"filename":"bundle.63829.css","previous":20197,"size":0,"diff":-20197},{"filename":"bundle.*****.esm.js","previous":15942,"size":0,"diff":-15942},{"filename":"polyfills.*****.esm.js","previous":1969,"size":0,"diff":-1969},{"filename":"route-home.chunk.25ed5.css","previous":23409,"size":0,"diff":-23409},{"filename":"route-home.chunk.*****.esm.js","previous":32788,"size":0,"diff":-32788},{"filename":"sw-esm.js","previous":8266,"size":0,"diff":-8266},{"filename":"sw.js","previous":8266,"size":0,"diff":-8266},{"filename":"bundle.c2e8c.css","previous":20197,"size":0,"diff":-20197},{"filename":"bundle.151d9.js","previous":15888,"size":0,"diff":-15888},{"filename":"polyfills.694cb.js","previous":2013,"size":0,"diff":-2013},{"filename":"route-home.chunk.bfb78.css","previous":23409,"size":0,"diff":-23409},{"filename":"route-home.chunk.6d958.js","previous":32922,"size":0,"diff":-32922},{"filename":"ssr-bundle.497b0.css","previous":0,"size":48281,"diff":48281},{"filename":"ssr-bundle.js","previous":0,"size":52981,"diff":52981}]},{"timestamp":1596266820144,"files":[{"filename":"ssr-bundle.b6e84.css","previous":45307,"size":0,"diff":-45307},{"filename":"ssr-bundle.js","previous":49907,"size":0,"diff":-49907},{"filename":"bundle.63829.css","previous":0,"size":20197,"diff":20197},{"filename":"bundle.*****.esm.js","previous":0,"size":15942,"diff":15942},{"filename":"polyfills.*****.esm.js","previous":0,"size":1969,"diff":1969},{"filename":"route-home.chunk.25ed5.css","previous":0,"size":23409,"diff":23409},{"filename":"route-home.chunk.*****.esm.js","previous":0,"size":32788,"diff":32788},{"filename":"sw-esm.js","previous":0,"size":8266,"diff":8266},{"filename":"sw.js","previous":0,"size":8266,"diff":8266},{"filename":"bundle.c2e8c.css","previous":0,"size":20197,"diff":20197},{"filename":"bundle.151d9.js","previous":0,"size":15888,"diff":15888},{"filename":"polyfills.694cb.js","previous":0,"size":2013,"diff":2013},{"filename":"route-home.chunk.bfb78.css","previous":0,"size":23409,"diff":23409},{"filename":"route-home.chunk.6d958.js","previous":0,"size":32922,"diff":32922}]},{"timestamp":1596266780664,"files":[{"filename":"bundle.0d09c.css","previous":16575,"size":0,"diff":-16575},{"filename":"bundle.*****.esm.js","previous":13301,"size":0,"diff":-13301},{"filename":"polyfills.*****.esm.js","previous":1969,"size":0,"diff":-1969},{"filename":"route-home.chunk.60b28.css","previous":2769,"size":0,"diff":-2769},{"filename":"route-home.chunk.*****.esm.js","previous":16602,"size":0,"diff":-16602},{"filename":"sw-esm.js","previous":8266,"size":0,"diff":-8266},{"filename":"sw.js","previous":8266,"size":0,"diff":-8266},{"filename":"bundle.06da7.js","previous":13256,"size":0,"diff":-13256},{"filename":"polyfills.694cb.js","previous":2013,"size":0,"diff":-2013},{"filename":"route-home.chunk.d585d.js","previous":16717,"size":0,"diff":-16717},{"filename":"ssr-bundle.b6e84.css","previous":0,"size":45307,"diff":45307},{"filename":"ssr-bundle.js","previous":0,"size":49907,"diff":49907}]},{"timestamp":1596225773582,"files":[{"filename":"ssr-bundle.5aae6.css","previous":19707,"size":0,"diff":-19707},{"filename":"ssr-bundle.js","previous":30835,"size":0,"diff":-30835},{"filename":"bundle.0d09c.css","previous":0,"size":16575,"diff":16575},{"filename":"bundle.*****.esm.js","previous":0,"size":13301,"diff":13301},{"filename":"polyfills.*****.esm.js","previous":0,"size":1969,"diff":1969},{"filename":"route-home.chunk.60b28.css","previous":0,"size":2769,"diff":2769},{"filename":"route-home.chunk.*****.esm.js","previous":0,"size":16602,"diff":16602},{"filename":"sw-esm.js","previous":0,"size":8266,"diff":8266},{"filename":"sw.js","previous":0,"size":8266,"diff":8266},{"filename":"bundle.06da7.js","previous":0,"size":13256,"diff":13256},{"filename":"polyfills.694cb.js","previous":0,"size":2013,"diff":2013},{"filename":"route-home.chunk.d585d.js","previous":0,"size":16717,"diff":16717}]},{"timestamp":1596225759789,"files":[{"filename":"bundle.622be.css","previous":14111,"size":0,"diff":-14111},{"filename":"bundle.*****.esm.js","previous":8870,"size":0,"diff":-8870},{"filename":"polyfills.*****.esm.js","previous":1969,"size":0,"diff":-1969},{"filename":"route-home.chunk.1e92c.css","previous":1610,"size":0,"diff":-1610},{"filename":"route-home.chunk.*****.esm.js","previous":15570,"size":0,"diff":-15570},{"filename":"sw-esm.js","previous":8266,"size":0,"diff":-8266},{"filename":"sw.js","previous":8266,"size":0,"diff":-8266},{"filename":"bundle.77474.js","previous":8952,"size":0,"diff":-8952},{"filename":"polyfills.694cb.js","previous":2013,"size":0,"diff":-2013},{"filename":"route-home.chunk.e1179.js","previous":15643,"size":0,"diff":-15643},{"filename":"ssr-bundle.5aae6.css","previous":0,"size":19707,"diff":19707},{"filename":"ssr-bundle.js","previous":0,"size":30835,"diff":30835}]},{"timestamp":1596053537752,"files":[{"filename":"ssr-bundle.01fd4.css","previous":16058,"size":0,"diff":-16058},{"filename":"ssr-bundle.js","previous":25305,"size":0,"diff":-25305},{"filename":"bundle.622be.css","previous":0,"size":14111,"diff":14111},{"filename":"bundle.*****.esm.js","previous":0,"size":8870,"diff":8870},{"filename":"polyfills.*****.esm.js","previous":0,"size":1969,"diff":1969},{"filename":"route-home.chunk.1e92c.css","previous":0,"size":1610,"diff":1610},{"filename":"route-home.chunk.*****.esm.js","previous":0,"size":15570,"diff":15570},{"filename":"sw-esm.js","previous":0,"size":8266,"diff":8266},{"filename":"sw.js","previous":0,"size":8266,"diff":8266},{"filename":"bundle.77474.js","previous":0,"size":8952,"diff":8952},{"filename":"polyfills.694cb.js","previous":0,"size":2013,"diff":2013},{"filename":"route-home.chunk.e1179.js","previous":0,"size":15643,"diff":15643}]},{"timestamp":1596053527436,"files":[{"filename":"bundle.622be.css","previous":14111,"size":0,"diff":-14111},{"filename":"bundle.*****.esm.js","previous":8870,"size":0,"diff":-8870},{"filename":"polyfills.*****.esm.js","previous":1969,"size":0,"diff":-1969},{"filename":"route-home.chunk.1e92c.css","previous":1610,"size":0,"diff":-1610},{"filename":"route-home.chunk.*****.esm.js","previous":13798,"size":0,"diff":-13798},{"filename":"sw-esm.js","previous":8266,"size":0,"diff":-8266},{"filename":"sw.js","previous":8266,"size":0,"diff":-8266},{"filename":"bundle.2e762.js","previous":8953,"size":0,"diff":-8953},{"filename":"polyfills.694cb.js","previous":2013,"size":0,"diff":-2013},{"filename":"route-home.chunk.6ce98.js","previous":13875,"size":0,"diff":-13875},{"filename":"ssr-bundle.01fd4.css","previous":0,"size":16058,"diff":16058},{"filename":"ssr-bundle.js","previous":0,"size":25305,"diff":25305}]},{"timestamp":1596051726523,"files":[{"filename":"ssr-bundle.01fd4.css","previous":16058,"size":0,"diff":-16058},{"filename":"ssr-bundle.js","previous":17424,"size":0,"diff":-17424},{"filename":"bundle.622be.css","previous":0,"size":14111,"diff":14111},{"filename":"bundle.*****.esm.js","previous":0,"size":8870,"diff":8870},{"filename":"polyfills.*****.esm.js","previous":0,"size":1969,"diff":1969},{"filename":"route-home.chunk.1e92c.css","previous":0,"size":1610,"diff":1610},{"filename":"route-home.chunk.*****.esm.js","previous":0,"size":13798,"diff":13798},{"filename":"sw-esm.js","previous":0,"size":8266,"diff":8266},{"filename":"sw.js","previous":0,"size":8266,"diff":8266},{"filename":"bundle.2e762.js","previous":0,"size":8953,"diff":8953},{"filename":"polyfills.694cb.js","previous":0,"size":2013,"diff":2013},{"filename":"route-home.chunk.6ce98.js","previous":0,"size":13875,"diff":13875}]},{"timestamp":1596051713620,"files":[{"filename":"bundle.622be.css","previous":14111,"size":0,"diff":-14111},{"filename":"bundle.*****.esm.js","previous":8871,"size":0,"diff":-8871},{"filename":"polyfills.*****.esm.js","previous":1969,"size":0,"diff":-1969},{"filename":"route-home.chunk.1e92c.css","previous":1610,"size":0,"diff":-1610},{"filename":"route-home.chunk.*****.esm.js","previous":11143,"size":0,"diff":-11143},{"filename":"sw-esm.js","previous":8266,"size":0,"diff":-8266},{"filename":"sw.js","previous":8266,"size":0,"diff":-8266},{"filename":"bundle.0159c.js","previous":8950,"size":0,"diff":-8950},{"filename":"polyfills.694cb.js","previous":2013,"size":0,"diff":-2013},{"filename":"route-home.chunk.01cdf.js","previous":11213,"size":0,"diff":-11213},{"filename":"ssr-bundle.01fd4.css","previous":0,"size":16058,"diff":16058},{"filename":"ssr-bundle.js","previous":0,"size":17424,"diff":17424}]},{"timestamp":1596051354601,"files":[{"filename":"ssr-bundle.01fd4.css","previous":16058,"size":0,"diff":-16058},{"filename":"ssr-bundle.js","previous":14857,"size":0,"diff":-14857},{"filename":"bundle.622be.css","previous":0,"size":14111,"diff":14111},{"filename":"bundle.*****.esm.js","previous":0,"size":8871,"diff":8871},{"filename":"polyfills.*****.esm.js","previous":0,"size":1969,"diff":1969},{"filename":"route-home.chunk.1e92c.css","previous":0,"size":1610,"diff":1610},{"filename":"route-home.chunk.*****.esm.js","previous":0,"size":11143,"diff":11143},{"filename":"sw-esm.js","previous":0,"size":8266,"diff":8266},{"filename":"sw.js","previous":0,"size":8266,"diff":8266},{"filename":"bundle.0159c.js","previous":0,"size":8950,"diff":8950},{"filename":"polyfills.694cb.js","previous":0,"size":2013,"diff":2013},{"filename":"route-home.chunk.01cdf.js","previous":0,"size":11213,"diff":11213}]},{"timestamp":1596051347108,"files":[{"filename":"bundle.622be.css","previous":14111,"size":0,"diff":-14111},{"filename":"bundle.*****.esm.js","previous":8871,"size":0,"diff":-8871},{"filename":"polyfills.*****.esm.js","previous":1969,"size":0,"diff":-1969},{"filename":"route-home.chunk.1e92c.css","previous":1610,"size":0,"diff":-1610},{"filename":"route-home.chunk.*****.esm.js","previous":11143,"size":0,"diff":-11143},{"filename":"sw-esm.js","previous":8266,"size":0,"diff":-8266},{"filename":"sw.js","previous":8266,"size":0,"diff":-8266},{"filename":"bundle.0159c.js","previous":8950,"size":0,"diff":-8950},{"filename":"polyfills.694cb.js","previous":2013,"size":0,"diff":-2013},{"filename":"route-home.chunk.01cdf.js","previous":11213,"size":0,"diff":-11213},{"filename":"ssr-bundle.01fd4.css","previous":0,"size":16058,"diff":16058},{"filename":"ssr-bundle.js","previous":0,"size":14857,"diff":14857}]},{"timestamp":1596051186066,"files":[{"filename":"ssr-bundle.01fd4.css","previous":16058,"size":0,"diff":-16058},{"filename":"ssr-bundle.js","previous":14857,"size":0,"diff":-14857},{"filename":"bundle.622be.css","previous":0,"size":14111,"diff":14111},{"filename":"bundle.*****.esm.js","previous":0,"size":8871,"diff":8871},{"filename":"polyfills.*****.esm.js","previous":0,"size":1969,"diff":1969},{"filename":"route-home.chunk.1e92c.css","previous":0,"size":1610,"diff":1610},{"filename":"route-home.chunk.*****.esm.js","previous":0,"size":11143,"diff":11143},{"filename":"sw-esm.js","previous":0,"size":8266,"diff":8266},{"filename":"sw.js","previous":0,"size":8266,"diff":8266},{"filename":"bundle.0159c.js","previous":0,"size":8950,"diff":8950},{"filename":"polyfills.694cb.js","previous":0,"size":2013,"diff":2013},{"filename":"route-home.chunk.01cdf.js","previous":0,"size":11213,"diff":11213}]},{"timestamp":1596051175563,"files":[{"filename":"bundle.622be.css","previous":14111,"size":0,"diff":-14111},{"filename":"bundle.*****.esm.js","previous":8870,"size":0,"diff":-8870},{"filename":"polyfills.*****.esm.js","previous":1969,"size":0,"diff":-1969},{"filename":"route-home.chunk.1e92c.css","previous":1610,"size":0,"diff":-1610},{"filename":"route-home.chunk.*****.esm.js","previous":13798,"size":0,"diff":-13798},{"filename":"sw-esm.js","previous":8266,"size":0,"diff":-8266},{"filename":"sw.js","previous":8266,"size":0,"diff":-8266},{"filename":"bundle.2e762.js","previous":8953,"size":0,"diff":-8953},{"filename":"polyfills.694cb.js","previous":2013,"size":0,"diff":-2013},{"filename":"route-home.chunk.6ce98.js","previous":13875,"size":0,"diff":-13875},{"filename":"ssr-bundle.01fd4.css","previous":0,"size":16058,"diff":16058},{"filename":"ssr-bundle.js","previous":0,"size":14857,"diff":14857}]},{"timestamp":1596050344752,"files":[{"filename":"ssr-bundle.01fd4.css","previous":16058,"size":0,"diff":-16058},{"filename":"ssr-bundle.js","previous":17424,"size":0,"diff":-17424},{"filename":"bundle.622be.css","previous":0,"size":14111,"diff":14111},{"filename":"bundle.*****.esm.js","previous":0,"size":8870,"diff":8870},{"filename":"polyfills.*****.esm.js","previous":0,"size":1969,"diff":1969},{"filename":"route-home.chunk.1e92c.css","previous":0,"size":1610,"diff":1610},{"filename":"route-home.chunk.*****.esm.js","previous":0,"size":13798,"diff":13798},{"filename":"sw-esm.js","previous":0,"size":8266,"diff":8266},{"filename":"sw.js","previous":0,"size":8266,"diff":8266},{"filename":"bundle.2e762.js","previous":0,"size":8953,"diff":8953},{"filename":"polyfills.694cb.js","previous":0,"size":2013,"diff":2013},{"filename":"route-home.chunk.6ce98.js","previous":0,"size":13875,"diff":13875}]},{"timestamp":1596049207082,"files":[{"filename":"ssr-bundle.01fd4.css","previous":16058,"size":16058,"diff":0},{"filename":"ssr-bundle.js","previous":17418,"size":17424,"diff":6}]},{"timestamp":1596049061089,"files":[{"filename":"ssr-bundle.01fd4.css","previous":0,"size":16058,"diff":16058},{"filename":"ssr-bundle.js","previous":0,"size":17418,"diff":17418}]}]
+[
+  {
+    "timestamp": 1697301010396,
+    "files": [
+      { "filename": "bundle.*****.esm.js", "previous": 13676, "size": 6424, "diff": -7252 },
+      { "filename": "polyfills.*****.esm.js", "previous": 2316, "size": 2316, "diff": 0 },
+      { "filename": "route-home.chunk.*****.esm.js", "previous": 58226, "size": 67299, "diff": 9073 },
+      { "filename": "sw-esm.js", "previous": 11698, "size": 11696, "diff": -2 },
+      { "filename": "sw.js", "previous": 11695, "size": 11689, "diff": -6 },
+      { "filename": "bundle.8f82f.css", "previous": 26121, "size": 0, "diff": -26121 },
+      { "filename": "route-home.chunk.45e58.css", "previous": 28928, "size": 28928, "diff": 0 },
+      { "filename": "bundle.9b062.js", "previous": 14224, "size": 0, "diff": -14224 },
+      { "filename": "polyfills.26000.js", "previous": 2416, "size": 2416, "diff": 0 },
+      { "filename": "route-home.chunk.9f07a.js", "previous": 60715, "size": 0, "diff": -60715 },
+      { "filename": "index.html", "previous": 1045, "size": 1045, "diff": 0 },
+      { "filename": "200.html", "previous": 1045, "size": 1045, "diff": 0 },
+      { "filename": "bundle.d47fe.css", "previous": 0, "size": 23594, "diff": 23594 },
+      { "filename": "bundle.c28f4.js", "previous": 0, "size": 6396, "diff": 6396 },
+      { "filename": "route-home.chunk.0b84a.js", "previous": 0, "size": 71437, "diff": 71437 }
+    ]
+  },
+  {
+    "timestamp": 1697229346056,
+    "files": [
+      { "filename": "bundle.f3d40.css", "previous": 17249, "size": 0, "diff": -17249 },
+      { "filename": "bundle.*****.esm.js", "previous": 11965, "size": 13676, "diff": 1711 },
+      { "filename": "polyfills.*****.esm.js", "previous": 1969, "size": 2316, "diff": 347 },
+      { "filename": "route-home.chunk.ac0d0.css", "previous": 28108, "size": 0, "diff": -28108 },
+      { "filename": "route-home.chunk.*****.esm.js", "previous": 38994, "size": 58226, "diff": 19232 },
+      { "filename": "sw-esm.js", "previous": 8266, "size": 11698, "diff": 3432 },
+      { "filename": "sw.js", "previous": 8266, "size": 11695, "diff": 3429 },
+      { "filename": "bundle.cfec6.css", "previous": 17249, "size": 0, "diff": -17249 },
+      { "filename": "bundle.504d8.js", "previous": 11930, "size": 0, "diff": -11930 },
+      { "filename": "polyfills.694cb.js", "previous": 2013, "size": 0, "diff": -2013 },
+      { "filename": "route-home.chunk.9272d.css", "previous": 28108, "size": 0, "diff": -28108 },
+      { "filename": "route-home.chunk.cf3fc.js", "previous": 39177, "size": 0, "diff": -39177 },
+      { "filename": "bundle.8f82f.css", "previous": 0, "size": 26121, "diff": 26121 },
+      { "filename": "route-home.chunk.45e58.css", "previous": 0, "size": 28928, "diff": 28928 },
+      { "filename": "bundle.9b062.js", "previous": 0, "size": 14224, "diff": 14224 },
+      { "filename": "polyfills.26000.js", "previous": 0, "size": 2416, "diff": 2416 },
+      { "filename": "route-home.chunk.9f07a.js", "previous": 0, "size": 60715, "diff": 60715 },
+      { "filename": "index.html", "previous": 0, "size": 1045, "diff": 1045 },
+      { "filename": "200.html", "previous": 0, "size": 1045, "diff": 1045 }
+    ]
+  },
+  {
+    "timestamp": 1596664572624,
+    "files": [
+      { "filename": "ssr-bundle.bdc31.css", "previous": 48243, "size": 0, "diff": -48243 },
+      { "filename": "ssr-bundle.js", "previous": 53377, "size": 0, "diff": -53377 },
+      { "filename": "bundle.f3d40.css", "previous": 0, "size": 17249, "diff": 17249 },
+      { "filename": "bundle.*****.esm.js", "previous": 0, "size": 11965, "diff": 11965 },
+      { "filename": "polyfills.*****.esm.js", "previous": 0, "size": 1969, "diff": 1969 },
+      { "filename": "route-home.chunk.ac0d0.css", "previous": 0, "size": 28108, "diff": 28108 },
+      { "filename": "route-home.chunk.*****.esm.js", "previous": 0, "size": 38994, "diff": 38994 },
+      { "filename": "sw-esm.js", "previous": 0, "size": 8266, "diff": 8266 },
+      { "filename": "sw.js", "previous": 0, "size": 8266, "diff": 8266 },
+      { "filename": "bundle.cfec6.css", "previous": 0, "size": 17249, "diff": 17249 },
+      { "filename": "bundle.504d8.js", "previous": 0, "size": 11930, "diff": 11930 },
+      { "filename": "polyfills.694cb.js", "previous": 0, "size": 2013, "diff": 2013 },
+      { "filename": "route-home.chunk.9272d.css", "previous": 0, "size": 28108, "diff": 28108 },
+      { "filename": "route-home.chunk.cf3fc.js", "previous": 0, "size": 39177, "diff": 39177 }
+    ]
+  },
+  {
+    "timestamp": 1596664548282,
+    "files": [
+      { "filename": "bundle.cfec6.css", "previous": 17249, "size": 0, "diff": -17249 },
+      { "filename": "bundle.*****.esm.js", "previous": 11965, "size": 0, "diff": -11965 },
+      { "filename": "polyfills.*****.esm.js", "previous": 1969, "size": 0, "diff": -1969 },
+      { "filename": "route-home.chunk.98a7e.css", "previous": 28107, "size": 0, "diff": -28107 },
+      { "filename": "route-home.chunk.*****.esm.js", "previous": 38870, "size": 0, "diff": -38870 },
+      { "filename": "sw-esm.js", "previous": 8266, "size": 0, "diff": -8266 },
+      { "filename": "sw.js", "previous": 8266, "size": 0, "diff": -8266 },
+      { "filename": "bundle.837c9.css", "previous": 17249, "size": 0, "diff": -17249 },
+      { "filename": "bundle.03cc1.js", "previous": 11930, "size": 0, "diff": -11930 },
+      { "filename": "polyfills.694cb.js", "previous": 2013, "size": 0, "diff": -2013 },
+      { "filename": "route-home.chunk.29b53.css", "previous": 28107, "size": 0, "diff": -28107 },
+      { "filename": "route-home.chunk.f63d7.js", "previous": 39034, "size": 0, "diff": -39034 },
+      { "filename": "ssr-bundle.bdc31.css", "previous": 0, "size": 48243, "diff": 48243 },
+      { "filename": "ssr-bundle.js", "previous": 0, "size": 53377, "diff": 53377 }
+    ]
+  },
+  {
+    "timestamp": 1596663284448,
+    "files": [
+      { "filename": "ssr-bundle.48693.css", "previous": 48241, "size": 0, "diff": -48241 },
+      { "filename": "ssr-bundle.js", "previous": 53235, "size": 0, "diff": -53235 },
+      { "filename": "bundle.cfec6.css", "previous": 0, "size": 17249, "diff": 17249 },
+      { "filename": "bundle.*****.esm.js", "previous": 0, "size": 11965, "diff": 11965 },
+      { "filename": "polyfills.*****.esm.js", "previous": 0, "size": 1969, "diff": 1969 },
+      { "filename": "route-home.chunk.98a7e.css", "previous": 0, "size": 28107, "diff": 28107 },
+      { "filename": "route-home.chunk.*****.esm.js", "previous": 0, "size": 38870, "diff": 38870 },
+      { "filename": "sw-esm.js", "previous": 0, "size": 8266, "diff": 8266 },
+      { "filename": "sw.js", "previous": 0, "size": 8266, "diff": 8266 },
+      { "filename": "bundle.837c9.css", "previous": 0, "size": 17249, "diff": 17249 },
+      { "filename": "bundle.03cc1.js", "previous": 0, "size": 11930, "diff": 11930 },
+      { "filename": "polyfills.694cb.js", "previous": 0, "size": 2013, "diff": 2013 },
+      { "filename": "route-home.chunk.29b53.css", "previous": 0, "size": 28107, "diff": 28107 },
+      { "filename": "route-home.chunk.f63d7.js", "previous": 0, "size": 39034, "diff": 39034 }
+    ]
+  },
+  {
+    "timestamp": 1596663261457,
+    "files": [
+      { "filename": "bundle.cfec6.css", "previous": 17249, "size": 0, "diff": -17249 },
+      { "filename": "bundle.*****.esm.js", "previous": 11962, "size": 0, "diff": -11962 },
+      { "filename": "polyfills.*****.esm.js", "previous": 1969, "size": 0, "diff": -1969 },
+      { "filename": "route-home.chunk.ed49a.css", "previous": 28107, "size": 0, "diff": -28107 },
+      { "filename": "route-home.chunk.*****.esm.js", "previous": 38800, "size": 0, "diff": -38800 },
+      { "filename": "sw-esm.js", "previous": 8266, "size": 0, "diff": -8266 },
+      { "filename": "sw.js", "previous": 8266, "size": 0, "diff": -8266 },
+      { "filename": "bundle.006ad.js", "previous": 11928, "size": 0, "diff": -11928 },
+      { "filename": "polyfills.694cb.js", "previous": 2013, "size": 0, "diff": -2013 },
+      { "filename": "route-home.chunk.b499f.css", "previous": 28107, "size": 0, "diff": -28107 },
+      { "filename": "route-home.chunk.b580a.js", "previous": 38963, "size": 0, "diff": -38963 },
+      { "filename": "ssr-bundle.48693.css", "previous": 0, "size": 48241, "diff": 48241 },
+      { "filename": "ssr-bundle.js", "previous": 0, "size": 53235, "diff": 53235 }
+    ]
+  },
+  {
+    "timestamp": 1596574783348,
+    "files": [
+      { "filename": "ssr-bundle.8bc5c.css", "previous": 48241, "size": 0, "diff": -48241 },
+      { "filename": "ssr-bundle.js", "previous": 53157, "size": 0, "diff": -53157 },
+      { "filename": "bundle.cfec6.css", "previous": 0, "size": 17249, "diff": 17249 },
+      { "filename": "bundle.*****.esm.js", "previous": 0, "size": 11962, "diff": 11962 },
+      { "filename": "polyfills.*****.esm.js", "previous": 0, "size": 1969, "diff": 1969 },
+      { "filename": "route-home.chunk.ed49a.css", "previous": 0, "size": 28107, "diff": 28107 },
+      { "filename": "route-home.chunk.*****.esm.js", "previous": 0, "size": 38800, "diff": 38800 },
+      { "filename": "sw-esm.js", "previous": 0, "size": 8266, "diff": 8266 },
+      { "filename": "sw.js", "previous": 0, "size": 8266, "diff": 8266 },
+      { "filename": "bundle.006ad.js", "previous": 0, "size": 11928, "diff": 11928 },
+      { "filename": "polyfills.694cb.js", "previous": 0, "size": 2013, "diff": 2013 },
+      { "filename": "route-home.chunk.b499f.css", "previous": 0, "size": 28107, "diff": 28107 },
+      { "filename": "route-home.chunk.b580a.js", "previous": 0, "size": 38963, "diff": 38963 }
+    ]
+  },
+  {
+    "timestamp": 1596574757448,
+    "files": [
+      { "filename": "bundle.61496.css", "previous": 22790, "size": 0, "diff": -22790 },
+      { "filename": "bundle.*****.esm.js", "previous": 19284, "size": 0, "diff": -19284 },
+      { "filename": "polyfills.*****.esm.js", "previous": 1969, "size": 0, "diff": -1969 },
+      { "filename": "route-home.chunk.5e6d5.css", "previous": 23541, "size": 0, "diff": -23541 },
+      { "filename": "route-home.chunk.*****.esm.js", "previous": 33153, "size": 0, "diff": -33153 },
+      { "filename": "sw-esm.js", "previous": 8266, "size": 0, "diff": -8266 },
+      { "filename": "sw.js", "previous": 8266, "size": 0, "diff": -8266 },
+      { "filename": "bundle.27282.css", "previous": 22790, "size": 0, "diff": -22790 },
+      { "filename": "bundle.19f85.js", "previous": 19248, "size": 0, "diff": -19248 },
+      { "filename": "polyfills.694cb.js", "previous": 2013, "size": 0, "diff": -2013 },
+      { "filename": "route-home.chunk.d1d87.css", "previous": 23541, "size": 0, "diff": -23541 },
+      { "filename": "route-home.chunk.103ba.js", "previous": 33281, "size": 0, "diff": -33281 },
+      { "filename": "ssr-bundle.8bc5c.css", "previous": 0, "size": 48241, "diff": 48241 },
+      { "filename": "ssr-bundle.js", "previous": 0, "size": 53157, "diff": 53157 }
+    ]
+  },
+  {
+    "timestamp": 1596332051269,
+    "files": [
+      { "filename": "ssr-bundle.497b0.css", "previous": 48281, "size": 0, "diff": -48281 },
+      { "filename": "ssr-bundle.js", "previous": 52981, "size": 0, "diff": -52981 },
+      { "filename": "bundle.61496.css", "previous": 0, "size": 22790, "diff": 22790 },
+      { "filename": "bundle.*****.esm.js", "previous": 0, "size": 19284, "diff": 19284 },
+      { "filename": "polyfills.*****.esm.js", "previous": 0, "size": 1969, "diff": 1969 },
+      { "filename": "route-home.chunk.5e6d5.css", "previous": 0, "size": 23541, "diff": 23541 },
+      { "filename": "route-home.chunk.*****.esm.js", "previous": 0, "size": 33153, "diff": 33153 },
+      { "filename": "sw-esm.js", "previous": 0, "size": 8266, "diff": 8266 },
+      { "filename": "sw.js", "previous": 0, "size": 8266, "diff": 8266 },
+      { "filename": "bundle.27282.css", "previous": 0, "size": 22790, "diff": 22790 },
+      { "filename": "bundle.19f85.js", "previous": 0, "size": 19248, "diff": 19248 },
+      { "filename": "polyfills.694cb.js", "previous": 0, "size": 2013, "diff": 2013 },
+      { "filename": "route-home.chunk.d1d87.css", "previous": 0, "size": 23541, "diff": 23541 },
+      { "filename": "route-home.chunk.103ba.js", "previous": 0, "size": 33281, "diff": 33281 }
+    ]
+  },
+  {
+    "timestamp": 1596332028597,
+    "files": [
+      { "filename": "bundle.63829.css", "previous": 20197, "size": 0, "diff": -20197 },
+      { "filename": "bundle.*****.esm.js", "previous": 15942, "size": 0, "diff": -15942 },
+      { "filename": "polyfills.*****.esm.js", "previous": 1969, "size": 0, "diff": -1969 },
+      { "filename": "route-home.chunk.25ed5.css", "previous": 23409, "size": 0, "diff": -23409 },
+      { "filename": "route-home.chunk.*****.esm.js", "previous": 32788, "size": 0, "diff": -32788 },
+      { "filename": "sw-esm.js", "previous": 8266, "size": 0, "diff": -8266 },
+      { "filename": "sw.js", "previous": 8266, "size": 0, "diff": -8266 },
+      { "filename": "bundle.c2e8c.css", "previous": 20197, "size": 0, "diff": -20197 },
+      { "filename": "bundle.151d9.js", "previous": 15888, "size": 0, "diff": -15888 },
+      { "filename": "polyfills.694cb.js", "previous": 2013, "size": 0, "diff": -2013 },
+      { "filename": "route-home.chunk.bfb78.css", "previous": 23409, "size": 0, "diff": -23409 },
+      { "filename": "route-home.chunk.6d958.js", "previous": 32922, "size": 0, "diff": -32922 },
+      { "filename": "ssr-bundle.497b0.css", "previous": 0, "size": 48281, "diff": 48281 },
+      { "filename": "ssr-bundle.js", "previous": 0, "size": 52981, "diff": 52981 }
+    ]
+  },
+  {
+    "timestamp": 1596266820144,
+    "files": [
+      { "filename": "ssr-bundle.b6e84.css", "previous": 45307, "size": 0, "diff": -45307 },
+      { "filename": "ssr-bundle.js", "previous": 49907, "size": 0, "diff": -49907 },
+      { "filename": "bundle.63829.css", "previous": 0, "size": 20197, "diff": 20197 },
+      { "filename": "bundle.*****.esm.js", "previous": 0, "size": 15942, "diff": 15942 },
+      { "filename": "polyfills.*****.esm.js", "previous": 0, "size": 1969, "diff": 1969 },
+      { "filename": "route-home.chunk.25ed5.css", "previous": 0, "size": 23409, "diff": 23409 },
+      { "filename": "route-home.chunk.*****.esm.js", "previous": 0, "size": 32788, "diff": 32788 },
+      { "filename": "sw-esm.js", "previous": 0, "size": 8266, "diff": 8266 },
+      { "filename": "sw.js", "previous": 0, "size": 8266, "diff": 8266 },
+      { "filename": "bundle.c2e8c.css", "previous": 0, "size": 20197, "diff": 20197 },
+      { "filename": "bundle.151d9.js", "previous": 0, "size": 15888, "diff": 15888 },
+      { "filename": "polyfills.694cb.js", "previous": 0, "size": 2013, "diff": 2013 },
+      { "filename": "route-home.chunk.bfb78.css", "previous": 0, "size": 23409, "diff": 23409 },
+      { "filename": "route-home.chunk.6d958.js", "previous": 0, "size": 32922, "diff": 32922 }
+    ]
+  },
+  {
+    "timestamp": 1596266780664,
+    "files": [
+      { "filename": "bundle.0d09c.css", "previous": 16575, "size": 0, "diff": -16575 },
+      { "filename": "bundle.*****.esm.js", "previous": 13301, "size": 0, "diff": -13301 },
+      { "filename": "polyfills.*****.esm.js", "previous": 1969, "size": 0, "diff": -1969 },
+      { "filename": "route-home.chunk.60b28.css", "previous": 2769, "size": 0, "diff": -2769 },
+      { "filename": "route-home.chunk.*****.esm.js", "previous": 16602, "size": 0, "diff": -16602 },
+      { "filename": "sw-esm.js", "previous": 8266, "size": 0, "diff": -8266 },
+      { "filename": "sw.js", "previous": 8266, "size": 0, "diff": -8266 },
+      { "filename": "bundle.06da7.js", "previous": 13256, "size": 0, "diff": -13256 },
+      { "filename": "polyfills.694cb.js", "previous": 2013, "size": 0, "diff": -2013 },
+      { "filename": "route-home.chunk.d585d.js", "previous": 16717, "size": 0, "diff": -16717 },
+      { "filename": "ssr-bundle.b6e84.css", "previous": 0, "size": 45307, "diff": 45307 },
+      { "filename": "ssr-bundle.js", "previous": 0, "size": 49907, "diff": 49907 }
+    ]
+  },
+  {
+    "timestamp": 1596225773582,
+    "files": [
+      { "filename": "ssr-bundle.5aae6.css", "previous": 19707, "size": 0, "diff": -19707 },
+      { "filename": "ssr-bundle.js", "previous": 30835, "size": 0, "diff": -30835 },
+      { "filename": "bundle.0d09c.css", "previous": 0, "size": 16575, "diff": 16575 },
+      { "filename": "bundle.*****.esm.js", "previous": 0, "size": 13301, "diff": 13301 },
+      { "filename": "polyfills.*****.esm.js", "previous": 0, "size": 1969, "diff": 1969 },
+      { "filename": "route-home.chunk.60b28.css", "previous": 0, "size": 2769, "diff": 2769 },
+      { "filename": "route-home.chunk.*****.esm.js", "previous": 0, "size": 16602, "diff": 16602 },
+      { "filename": "sw-esm.js", "previous": 0, "size": 8266, "diff": 8266 },
+      { "filename": "sw.js", "previous": 0, "size": 8266, "diff": 8266 },
+      { "filename": "bundle.06da7.js", "previous": 0, "size": 13256, "diff": 13256 },
+      { "filename": "polyfills.694cb.js", "previous": 0, "size": 2013, "diff": 2013 },
+      { "filename": "route-home.chunk.d585d.js", "previous": 0, "size": 16717, "diff": 16717 }
+    ]
+  },
+  {
+    "timestamp": 1596225759789,
+    "files": [
+      { "filename": "bundle.622be.css", "previous": 14111, "size": 0, "diff": -14111 },
+      { "filename": "bundle.*****.esm.js", "previous": 8870, "size": 0, "diff": -8870 },
+      { "filename": "polyfills.*****.esm.js", "previous": 1969, "size": 0, "diff": -1969 },
+      { "filename": "route-home.chunk.1e92c.css", "previous": 1610, "size": 0, "diff": -1610 },
+      { "filename": "route-home.chunk.*****.esm.js", "previous": 15570, "size": 0, "diff": -15570 },
+      { "filename": "sw-esm.js", "previous": 8266, "size": 0, "diff": -8266 },
+      { "filename": "sw.js", "previous": 8266, "size": 0, "diff": -8266 },
+      { "filename": "bundle.77474.js", "previous": 8952, "size": 0, "diff": -8952 },
+      { "filename": "polyfills.694cb.js", "previous": 2013, "size": 0, "diff": -2013 },
+      { "filename": "route-home.chunk.e1179.js", "previous": 15643, "size": 0, "diff": -15643 },
+      { "filename": "ssr-bundle.5aae6.css", "previous": 0, "size": 19707, "diff": 19707 },
+      { "filename": "ssr-bundle.js", "previous": 0, "size": 30835, "diff": 30835 }
+    ]
+  },
+  {
+    "timestamp": 1596053537752,
+    "files": [
+      { "filename": "ssr-bundle.01fd4.css", "previous": 16058, "size": 0, "diff": -16058 },
+      { "filename": "ssr-bundle.js", "previous": 25305, "size": 0, "diff": -25305 },
+      { "filename": "bundle.622be.css", "previous": 0, "size": 14111, "diff": 14111 },
+      { "filename": "bundle.*****.esm.js", "previous": 0, "size": 8870, "diff": 8870 },
+      { "filename": "polyfills.*****.esm.js", "previous": 0, "size": 1969, "diff": 1969 },
+      { "filename": "route-home.chunk.1e92c.css", "previous": 0, "size": 1610, "diff": 1610 },
+      { "filename": "route-home.chunk.*****.esm.js", "previous": 0, "size": 15570, "diff": 15570 },
+      { "filename": "sw-esm.js", "previous": 0, "size": 8266, "diff": 8266 },
+      { "filename": "sw.js", "previous": 0, "size": 8266, "diff": 8266 },
+      { "filename": "bundle.77474.js", "previous": 0, "size": 8952, "diff": 8952 },
+      { "filename": "polyfills.694cb.js", "previous": 0, "size": 2013, "diff": 2013 },
+      { "filename": "route-home.chunk.e1179.js", "previous": 0, "size": 15643, "diff": 15643 }
+    ]
+  },
+  {
+    "timestamp": 1596053527436,
+    "files": [
+      { "filename": "bundle.622be.css", "previous": 14111, "size": 0, "diff": -14111 },
+      { "filename": "bundle.*****.esm.js", "previous": 8870, "size": 0, "diff": -8870 },
+      { "filename": "polyfills.*****.esm.js", "previous": 1969, "size": 0, "diff": -1969 },
+      { "filename": "route-home.chunk.1e92c.css", "previous": 1610, "size": 0, "diff": -1610 },
+      { "filename": "route-home.chunk.*****.esm.js", "previous": 13798, "size": 0, "diff": -13798 },
+      { "filename": "sw-esm.js", "previous": 8266, "size": 0, "diff": -8266 },
+      { "filename": "sw.js", "previous": 8266, "size": 0, "diff": -8266 },
+      { "filename": "bundle.2e762.js", "previous": 8953, "size": 0, "diff": -8953 },
+      { "filename": "polyfills.694cb.js", "previous": 2013, "size": 0, "diff": -2013 },
+      { "filename": "route-home.chunk.6ce98.js", "previous": 13875, "size": 0, "diff": -13875 },
+      { "filename": "ssr-bundle.01fd4.css", "previous": 0, "size": 16058, "diff": 16058 },
+      { "filename": "ssr-bundle.js", "previous": 0, "size": 25305, "diff": 25305 }
+    ]
+  },
+  {
+    "timestamp": 1596051726523,
+    "files": [
+      { "filename": "ssr-bundle.01fd4.css", "previous": 16058, "size": 0, "diff": -16058 },
+      { "filename": "ssr-bundle.js", "previous": 17424, "size": 0, "diff": -17424 },
+      { "filename": "bundle.622be.css", "previous": 0, "size": 14111, "diff": 14111 },
+      { "filename": "bundle.*****.esm.js", "previous": 0, "size": 8870, "diff": 8870 },
+      { "filename": "polyfills.*****.esm.js", "previous": 0, "size": 1969, "diff": 1969 },
+      { "filename": "route-home.chunk.1e92c.css", "previous": 0, "size": 1610, "diff": 1610 },
+      { "filename": "route-home.chunk.*****.esm.js", "previous": 0, "size": 13798, "diff": 13798 },
+      { "filename": "sw-esm.js", "previous": 0, "size": 8266, "diff": 8266 },
+      { "filename": "sw.js", "previous": 0, "size": 8266, "diff": 8266 },
+      { "filename": "bundle.2e762.js", "previous": 0, "size": 8953, "diff": 8953 },
+      { "filename": "polyfills.694cb.js", "previous": 0, "size": 2013, "diff": 2013 },
+      { "filename": "route-home.chunk.6ce98.js", "previous": 0, "size": 13875, "diff": 13875 }
+    ]
+  },
+  {
+    "timestamp": 1596051713620,
+    "files": [
+      { "filename": "bundle.622be.css", "previous": 14111, "size": 0, "diff": -14111 },
+      { "filename": "bundle.*****.esm.js", "previous": 8871, "size": 0, "diff": -8871 },
+      { "filename": "polyfills.*****.esm.js", "previous": 1969, "size": 0, "diff": -1969 },
+      { "filename": "route-home.chunk.1e92c.css", "previous": 1610, "size": 0, "diff": -1610 },
+      { "filename": "route-home.chunk.*****.esm.js", "previous": 11143, "size": 0, "diff": -11143 },
+      { "filename": "sw-esm.js", "previous": 8266, "size": 0, "diff": -8266 },
+      { "filename": "sw.js", "previous": 8266, "size": 0, "diff": -8266 },
+      { "filename": "bundle.0159c.js", "previous": 8950, "size": 0, "diff": -8950 },
+      { "filename": "polyfills.694cb.js", "previous": 2013, "size": 0, "diff": -2013 },
+      { "filename": "route-home.chunk.01cdf.js", "previous": 11213, "size": 0, "diff": -11213 },
+      { "filename": "ssr-bundle.01fd4.css", "previous": 0, "size": 16058, "diff": 16058 },
+      { "filename": "ssr-bundle.js", "previous": 0, "size": 17424, "diff": 17424 }
+    ]
+  },
+  {
+    "timestamp": 1596051354601,
+    "files": [
+      { "filename": "ssr-bundle.01fd4.css", "previous": 16058, "size": 0, "diff": -16058 },
+      { "filename": "ssr-bundle.js", "previous": 14857, "size": 0, "diff": -14857 },
+      { "filename": "bundle.622be.css", "previous": 0, "size": 14111, "diff": 14111 },
+      { "filename": "bundle.*****.esm.js", "previous": 0, "size": 8871, "diff": 8871 },
+      { "filename": "polyfills.*****.esm.js", "previous": 0, "size": 1969, "diff": 1969 },
+      { "filename": "route-home.chunk.1e92c.css", "previous": 0, "size": 1610, "diff": 1610 },
+      { "filename": "route-home.chunk.*****.esm.js", "previous": 0, "size": 11143, "diff": 11143 },
+      { "filename": "sw-esm.js", "previous": 0, "size": 8266, "diff": 8266 },
+      { "filename": "sw.js", "previous": 0, "size": 8266, "diff": 8266 },
+      { "filename": "bundle.0159c.js", "previous": 0, "size": 8950, "diff": 8950 },
+      { "filename": "polyfills.694cb.js", "previous": 0, "size": 2013, "diff": 2013 },
+      { "filename": "route-home.chunk.01cdf.js", "previous": 0, "size": 11213, "diff": 11213 }
+    ]
+  },
+  {
+    "timestamp": 1596051347108,
+    "files": [
+      { "filename": "bundle.622be.css", "previous": 14111, "size": 0, "diff": -14111 },
+      { "filename": "bundle.*****.esm.js", "previous": 8871, "size": 0, "diff": -8871 },
+      { "filename": "polyfills.*****.esm.js", "previous": 1969, "size": 0, "diff": -1969 },
+      { "filename": "route-home.chunk.1e92c.css", "previous": 1610, "size": 0, "diff": -1610 },
+      { "filename": "route-home.chunk.*****.esm.js", "previous": 11143, "size": 0, "diff": -11143 },
+      { "filename": "sw-esm.js", "previous": 8266, "size": 0, "diff": -8266 },
+      { "filename": "sw.js", "previous": 8266, "size": 0, "diff": -8266 },
+      { "filename": "bundle.0159c.js", "previous": 8950, "size": 0, "diff": -8950 },
+      { "filename": "polyfills.694cb.js", "previous": 2013, "size": 0, "diff": -2013 },
+      { "filename": "route-home.chunk.01cdf.js", "previous": 11213, "size": 0, "diff": -11213 },
+      { "filename": "ssr-bundle.01fd4.css", "previous": 0, "size": 16058, "diff": 16058 },
+      { "filename": "ssr-bundle.js", "previous": 0, "size": 14857, "diff": 14857 }
+    ]
+  },
+  {
+    "timestamp": 1596051186066,
+    "files": [
+      { "filename": "ssr-bundle.01fd4.css", "previous": 16058, "size": 0, "diff": -16058 },
+      { "filename": "ssr-bundle.js", "previous": 14857, "size": 0, "diff": -14857 },
+      { "filename": "bundle.622be.css", "previous": 0, "size": 14111, "diff": 14111 },
+      { "filename": "bundle.*****.esm.js", "previous": 0, "size": 8871, "diff": 8871 },
+      { "filename": "polyfills.*****.esm.js", "previous": 0, "size": 1969, "diff": 1969 },
+      { "filename": "route-home.chunk.1e92c.css", "previous": 0, "size": 1610, "diff": 1610 },
+      { "filename": "route-home.chunk.*****.esm.js", "previous": 0, "size": 11143, "diff": 11143 },
+      { "filename": "sw-esm.js", "previous": 0, "size": 8266, "diff": 8266 },
+      { "filename": "sw.js", "previous": 0, "size": 8266, "diff": 8266 },
+      { "filename": "bundle.0159c.js", "previous": 0, "size": 8950, "diff": 8950 },
+      { "filename": "polyfills.694cb.js", "previous": 0, "size": 2013, "diff": 2013 },
+      { "filename": "route-home.chunk.01cdf.js", "previous": 0, "size": 11213, "diff": 11213 }
+    ]
+  },
+  {
+    "timestamp": 1596051175563,
+    "files": [
+      { "filename": "bundle.622be.css", "previous": 14111, "size": 0, "diff": -14111 },
+      { "filename": "bundle.*****.esm.js", "previous": 8870, "size": 0, "diff": -8870 },
+      { "filename": "polyfills.*****.esm.js", "previous": 1969, "size": 0, "diff": -1969 },
+      { "filename": "route-home.chunk.1e92c.css", "previous": 1610, "size": 0, "diff": -1610 },
+      { "filename": "route-home.chunk.*****.esm.js", "previous": 13798, "size": 0, "diff": -13798 },
+      { "filename": "sw-esm.js", "previous": 8266, "size": 0, "diff": -8266 },
+      { "filename": "sw.js", "previous": 8266, "size": 0, "diff": -8266 },
+      { "filename": "bundle.2e762.js", "previous": 8953, "size": 0, "diff": -8953 },
+      { "filename": "polyfills.694cb.js", "previous": 2013, "size": 0, "diff": -2013 },
+      { "filename": "route-home.chunk.6ce98.js", "previous": 13875, "size": 0, "diff": -13875 },
+      { "filename": "ssr-bundle.01fd4.css", "previous": 0, "size": 16058, "diff": 16058 },
+      { "filename": "ssr-bundle.js", "previous": 0, "size": 14857, "diff": 14857 }
+    ]
+  },
+  {
+    "timestamp": 1596050344752,
+    "files": [
+      { "filename": "ssr-bundle.01fd4.css", "previous": 16058, "size": 0, "diff": -16058 },
+      { "filename": "ssr-bundle.js", "previous": 17424, "size": 0, "diff": -17424 },
+      { "filename": "bundle.622be.css", "previous": 0, "size": 14111, "diff": 14111 },
+      { "filename": "bundle.*****.esm.js", "previous": 0, "size": 8870, "diff": 8870 },
+      { "filename": "polyfills.*****.esm.js", "previous": 0, "size": 1969, "diff": 1969 },
+      { "filename": "route-home.chunk.1e92c.css", "previous": 0, "size": 1610, "diff": 1610 },
+      { "filename": "route-home.chunk.*****.esm.js", "previous": 0, "size": 13798, "diff": 13798 },
+      { "filename": "sw-esm.js", "previous": 0, "size": 8266, "diff": 8266 },
+      { "filename": "sw.js", "previous": 0, "size": 8266, "diff": 8266 },
+      { "filename": "bundle.2e762.js", "previous": 0, "size": 8953, "diff": 8953 },
+      { "filename": "polyfills.694cb.js", "previous": 0, "size": 2013, "diff": 2013 },
+      { "filename": "route-home.chunk.6ce98.js", "previous": 0, "size": 13875, "diff": 13875 }
+    ]
+  },
+  {
+    "timestamp": 1596049207082,
+    "files": [
+      { "filename": "ssr-bundle.01fd4.css", "previous": 16058, "size": 16058, "diff": 0 },
+      { "filename": "ssr-bundle.js", "previous": 17418, "size": 17424, "diff": 6 }
+    ]
+  },
+  {
+    "timestamp": 1596049061089,
+    "files": [
+      { "filename": "ssr-bundle.01fd4.css", "previous": 0, "size": 16058, "diff": 16058 },
+      { "filename": "ssr-bundle.js", "previous": 0, "size": 17418, "diff": 17418 }
+    ]
+  }
+]

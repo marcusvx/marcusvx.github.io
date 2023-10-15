@@ -1,15 +1,15 @@
-@import "./variables.less";
-@import (reference) "bootstrap/less/variables.less";
-@import (reference) "bootstrap/less/mixins/clearfix.less";
-@import (reference) "bootstrap/less/mixins/grid.less";
-@import "bootstrap/less/mixins/grid-framework.less";
-@import "bootstrap/less/grid.less";
+@import './variables.less';
+@import (reference) 'bootstrap/less/variables.less';
+@import (reference) 'bootstrap/less/mixins/clearfix.less';
+@import (reference) 'bootstrap/less/mixins/grid.less';
+@import 'bootstrap/less/mixins/grid-framework.less';
+@import 'bootstrap/less/grid.less';
 
 html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: "Jura", sans-serif;
+  font-family: 'Jura', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.65;
@@ -28,7 +28,7 @@ h6,
 .h5,
 .h6 {
   color: @colorDefault;
-  font-family: "Jura", sans-serif;
+  font-family: 'Jura', sans-serif;
   font-weight: 700;
   text-transform: capitalize;
 }
@@ -38,19 +38,19 @@ p {
 }
 a {
   color: @black;
-  font-family: "Jura", sans-serif;
+  font-family: 'Jura', sans-serif;
   font-weight: 700;
   text-decoration: none;
   transition: all 0.3s ease;
   &:hover {
     color: @black;
-    font-family: "Jura", sans-serif;
+    font-family: 'Jura', sans-serif;
     font-weight: 700;
     text-decoration: none;
   }
   &:focus {
     color: @black;
-    font-family: "Jura", sans-serif;
+    font-family: 'Jura', sans-serif;
     font-weight: 700;
     text-decoration: none;
   }
@@ -84,7 +84,7 @@ textarea:focus {
   &::before {
     background-color: rgba(0, 0, 0, 0.75);
     bottom: 0;
-    content: "";
+    content: '';
     height: 100%;
     left: 0;
     position: absolute;
@@ -106,16 +106,16 @@ textarea:focus {
   position: relative;
 
   &::before {
-    background-image: url("../assets/img/noise.png");
+    background-image: url('../assets/img/noise.png');
     background-repeat: repeat;
     bottom: 0;
-    content: "";
+    content: '';
     left: 0;
     position: absolute;
     right: 0;
     top: 0;
     width: @fullWidth;
-    height: @fullWidth; 
+    height: @fullWidth;
     z-index: 0;
   }
 }

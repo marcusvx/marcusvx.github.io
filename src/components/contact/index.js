@@ -1,235 +1,123 @@
-import style from "./style";
-import classNames from "classnames";
-import SectionHeader from "../sectionHeader";
-import { Component } from "preact";
-import axios from "axios";
+import style from './style.less';
+import classNames from 'classnames';
+import SectionHeader from '../sectionHeader';
+import { useForm } from 'react-hook-form';
+import { useState } from 'preact/hooks';
+import axios from 'axios';
+import Typewriter from 'typewriter-effect';
 
-const MIN_LENGTH = 3;
-const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-const MESSAGE_MIN_WORDS = 3;
+export default function Contact() {
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+    watch,
+    reset,
+  } = useForm();
+  const [formResponse, setFormResponse] = useState({ message: '', success: true });
+  const [submitting, setSubmitting] = useState(false);
+  const values = watch();
 
-class Contact extends Component {
-  constructor() {
-    super();
-    this.state = {
-      name: "",
-      email: "",
-      message: "",
-      nameValid: false,
-      emailValid: false,
-      messageValid: false,
-      disableSubmit: true,
-      formResponse: "",
-      sendButtonText: "Send Message",
-      errorMsg: {
-        name: "",
-        email: "",
-        message: "",
-      },
-    };
-  }
-
-  validateForm = () => {
-    const { nameValid, emailValid, messageValid } = this.state;
-    this.setState({
-      disableSubmit: !nameValid || !emailValid || !messageValid,
-    });
-  };
-
-  updateName = (name) => {
-    this.setState({ name }, this.validateName);
-  };
-
-  validateName = () => {
-    const { name } = this.state;
-    let nameValid = true;
-    let errorMsg = { ...this.state.errorMsg, name: "" };
-
-    if (name.length < MIN_LENGTH) {
-      nameValid = false;
-      errorMsg.name = "Must be at least 3 characters long";
-    }
-
-    this.setState({ nameValid, errorMsg }, this.validateForm);
-  };
-
-  updateEmail = (email) => {
-    this.setState({ email }, this.validateEmail);
-  };
-
-  validateEmail = () => {
-    const { email } = this.state;
-    let emailValid = true;
-    let errorMsg = { ...this.state.errorMsg, email: "" };
-
-    if (!EMAIL_PATTERN.test(email)) {
-      emailValid = false;
-      errorMsg.email = "Invalid email format";
-    }
-
-    this.setState({ emailValid, errorMsg }, this.validateForm);
-  };
-
-  updateMessage = (message) => {
-    this.setState({ message }, this.validateMessage);
-  };
-
-  validateMessage = () => {
-    const { message } = this.state;
-    let messageValid = true;
-    let errorMsg = { ...this.state.errorMsg, message: "" };
-
-    if (message.trim().split(" ").length < MESSAGE_MIN_WORDS) {
-      messageValid = false;
-      errorMsg.message = "Invalid message";
-    }
-
-    this.setState({ messageValid, errorMsg }, this.validateForm);
-  };
-
-  handleSubmit = (event) => {
-    event.preventDefault();
-    this.setState({
-      disableSubmit: true,
-      sendButtonText: (
-        <>
-          Sending <i class="fas fa-circle-notch fa-spin"></i>
-        </>
-      ),
-    });
-
-    const data = {
-      name: this.state.name,
-      email: this.state.email,
-      message: this.state.message,
-    };
+  const submitHandler = handleSubmit(data => {
+    setSubmitting(true);
+    // const data = {
+    //   name: this.state.name,
+    //   email: this.state.email,
+    //   message: this.state.message,
+    // };
 
     axios
-      .post("https://marcusvinicius.info/api/contact", data)
+      .post('https://marcusvinicius.info/api/contact', data)
       .then(() => {
-        this.setState({
-          name: "",
-          email: "",
-          message: "",
-          formResponse: "Message sent successfully",
-          disableSubmit: true,
-        });
+        setFormResponse({ message: 'Message sent', success: true });
+        reset();
       })
       .catch(() => {
-        this.setState({
-          formResponse: "Error sending message",
-          disableSubmit: false,
-        });
+        setFormResponse({ message: 'Error sending message', success: false });
       })
-      .then(() => {
-        this.setState({
-          sendButtonText: "Send Message",
-        });
-
-        window.setTimeout(() => {
-          this.setState({
-            formResponse: "",
-          });
-        }, 3000);
+      .finally(() => {
+        setSubmitting(false);
       });
-  };
+  });
 
-  render() {
-    return (
-      <section class={style.contact} id="contact_me">
-        <div class={style.container}>
-          <SectionHeader
-            title="Get in touch"
-            subTitle="Want to hire me? Leave a message!"
-          />
+  return (
+    <section className={style.contact} id="contact_me">
+      <div className={style.container}>
+        <SectionHeader title="Get in touch" subTitle="Want to hire me? Leave a message!" />
 
-          <div class={style.form_wrapper}>
-            <div
-              class={style.formCol}
-              data-aos="fade-in"
-              data-aos-offset="200"
-              data-aos-duration="500"
-            >
-              <form data-toggle="validator" role="form" id="contact-form">
-                <div class={style.form_group}>
-                  <input
-                    type="text"
-                    name="name"
-                    id="name"
-                    class={classNames(
-                      style.form_control,
-                      this.state.name ? style.has_value : ""
-                    )}
-                    required
-                    value={this.state.name}
-                    onChange={(e) => this.updateName(e.target.value)}
-                  />
-                  <label for="name">Your Name</label>
-                  {this.state.errorMsg.name && (
-                    <span class={style.errorHelper}>
-                      {this.state.errorMsg.name}
-                    </span>
+        <div className={style.form_wrapper}>
+          <div className={style.formCol}>
+            <form role="form" id="contact-form" onSubmit={submitHandler}>
+              <div className={style.form_group}>
+                <input
+                  type="text"
+                  className={classNames(style.form_control, values.name ? style.has_value : '')}
+                  {...register('name', { required: true })}
+                  aria-invalid={errors.name ? 'true' : 'false'}
+                />
+                <label htmlFor="name">Your Name</label>
+                {errors.name?.type === 'required' && <span className={style.errorHelper}>Please enter your name</span>}
+              </div>
+
+              <div className={style.form_group}>
+                <input
+                  type="text"
+                  className={classNames(style.form_control, values.email ? style.has_value : '')}
+                  {...register('email', {
+                    required: 'Please inform the email',
+                    pattern: {
+                      value: /\S+@\S+\.\S+/,
+                      message: 'Enter a valid email',
+                    },
+                  })}
+                  aria-invalid={errors.email ? 'true' : 'false'}
+                />
+                <label htmlFor="mail">Your E-mail</label>
+                {errors.email && <span className={style.errorHelper}>{errors.email.message}</span>}
+              </div>
+              <div className={style.form_group}>
+                <textarea
+                  className={classNames(style.form_control, values.message ? style.has_value : '')}
+                  {...register('message', { required: true, min: 5, max: 500 })}
+                  aria-invalid={errors.message ? 'true' : 'false'}
+                />
+                <label htmlFor="message">Your Message Here</label>
+                {errors.message && <span className={style.errorHelper}>Enter a message</span>}
+              </div>
+              <div>
+                <button type="submit" className={style.submit_button} disabled={submitting}>
+                  {submitting ? (
+                    <>
+                      Sending <i class="fas fa-circle-notch fa-spin" />
+                    </>
+                  ) : (
+                    'Send Message'
                   )}
-                </div>
-
-                <div class={style.form_group}>
-                  <input
-                    type="email"
-                    name="mail"
-                    id="mail"
-                    class={classNames(
-                      style.form_control,
-                      this.state.email ? style.has_value : ""
-                    )}
-                    pattern="[a-z0-9._%+-]+@@[a-z0-9.-]+\.[a-z]{2,4}$"
-                    required
-                    value={this.state.email}
-                    onChange={(e) => this.updateEmail(e.target.value)}
+                </button>
+              </div>
+              <div
+                className={classNames(
+                  style.formResponse,
+                  formResponse.success ? 'alert-success text-success' : 'alert-danger text-danger',
+                )}
+              >
+                {formResponse.message && (
+                  <Typewriter
+                    onInit={typewriter => {
+                      typewriter
+                        .typeString(formResponse.message)
+                        .pauseFor(4000)
+                        .start()
+                        .deleteChars(formResponse.message.length)
+                        .callFunction(() => setFormResponse({ message: '', success: true }));
+                    }}
                   />
-                  <label for="mail">Your E-mail</label>
-                  {this.state.errorMsg.email && (
-                    <span class={style.errorHelper}>
-                      {this.state.errorMsg.email}
-                    </span>
-                  )}{" "}
-                </div>
-                <div class={style.form_group}>
-                  <textarea
-                    name="message"
-                    id="message"
-                    class={classNames(
-                      style.form_control,
-                      this.state.message ? style.has_value : ""
-                    )}
-                    required
-                    onChange={(e) => this.updateMessage(e.target.value)}
-                    value={this.state.message}
-                  ></textarea>
-                  <label for="message">Your Message Here</label>
-                  {this.state.errorMsg.message && (
-                    <span class={style.errorHelper}>
-                      {this.state.errorMsg.message}
-                    </span>
-                  )}
-                </div>
-                <div>
-                  <button
-                    type="submit"
-                    class={style.submit_button}
-                    onClick={this.handleSubmit}
-                    disabled={this.state.disableSubmit}
-                  >
-                    {this.state.sendButtonText}
-                  </button>
-                </div>
-                <p class={style.formResponse}>{this.state.formResponse}</p>
-              </form>
-            </div>
+                )}
+              </div>
+            </form>
           </div>
         </div>
-      </section>
-    );
-  }
+      </div>
+    </section>
+  );
 }
-
-export default Contact;
