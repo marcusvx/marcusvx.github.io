@@ -2,7 +2,7 @@ import { createRef } from 'preact';
 import { useEffect } from 'preact/hooks';
 import EasyPieChart from 'easy-pie-chart/dist/easypiechart';
 import { CountUp } from 'countup.js';
-import style from './style.less';
+import style from './style.scss';
 
 const PieChart = props => {
   const { percent, title } = props;

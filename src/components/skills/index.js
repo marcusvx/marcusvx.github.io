@@ -1,4 +1,4 @@
-import style from './style.less';
+import style from './style.scss';
 import PieChart from '../pieChart';
 import BarChart from '../barChart';
 import SectionHeader from '../sectionHeader';
@@ -29,18 +29,20 @@ const ViewPortSkills = props => {
           ) : null}
         </div>
 
-        <div className={style.otherSkills}>
+        <div className={style.otherSkillsWrapper}>
           <SectionHeader
             title="Other Skills"
             subTitle="Languages, technologies and pratices of my preference."
             darkBg="true"
           />
 
-          <div className={style.skillsWrapper}>
+          <div className={style.otherSkills}>
             {enterCount >= 1 && barValues ? (
               <>
                 {barValues.map(item => (
-                  <BarChart key={item.label} value={item.value} label={item.label} />
+                  <div className={style.skillBar}>
+                    <BarChart key={item.label} value={item.value} label={item.label} />
+                  </div>
                 ))}
               </>
             ) : null}

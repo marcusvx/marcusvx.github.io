@@ -1,4 +1,4 @@
-@import '../../style/variables.less';
+@import '../../style/variables.scss';
 
 .accordion {
   text-align: left;
@@ -21,8 +21,7 @@
         position: absolute;
         right: 20px;
         top: 50%;
-        color: @dark;
-        -webkit-transform: translateY(-50%);
+        color: $dark;
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
         -webkit-transition: all 0.3s ease-in-out;
@@ -31,12 +30,11 @@
       }
 
       &.active {
-        background: @dark;
+        background: $dark;
         color: #fff;
-        border-color: @dark;
+        border-color: $dark;
 
         & i {
-          -webkit-transform: translateY(-50%) rotate(45deg);
           -ms-transform: translateY(-50%) rotate(45deg);
           transform: translateY(-50%) rotate(45deg);
           color: #fff;

@@ -1,0 +1,30 @@
+@import '../../style/index.scss';
+@import "bulma/sass/components/navbar";
+@import "bulma/sass/elements/container";
+
+.mainNavbar {
+  @extend .navbar;
+  @extend .is-fixed-top;
+
+  .navbarItem {
+    @extend .navbar-item;
+
+    i {
+      margin-right: 10px;
+    }
+  }
+
+  .navBarMenu {
+    @extend .navbar-menu;
+
+    .navbarEnd {
+      @extend .navbar-end;
+    }
+  }
+
+  .navbarBrand {
+    @extend .navbar-brand;
+
+
+  }
+}

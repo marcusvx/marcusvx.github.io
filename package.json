@@ -20,6 +20,7 @@
     ]
   },
   "devDependencies": {
+    "css-loader": "^6.8.1",
     "enzyme": "^3.10.0",
     "enzyme-adapter-preact-pure": "^4.1.0",
     "eslint": "^8.51.0",
@@ -28,16 +29,19 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^29.7.0",
     "jest-preset-preact": "^4.1.0",
-    "less-loader": "7",
     "preact-cli": "^3.0.0",
     "preact-render-spy": "^1.2.1",
     "prettier": "3.0.3",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.69.3",
+    "sass-loader": "10.1.1",
     "sirv-cli": "^2.0.2"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.4.2",
     "axios": "^1.5.1",
-    "bootstrap": "^3.4.1",
+    "bulma": "^0.9.4",
+    "bulma-timeline": "^3.0.5",
     "classnames": "^2.2.6",
     "countup.js": "^2.0.6",
     "easy-pie-chart": "^2.1.7",

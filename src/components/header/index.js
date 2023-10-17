@@ -1,19 +1,25 @@
-import style from './style';
+import style from './style.scss';
 import Menu from '../menu';
 
-const Header = () => (
-  <header className={style.mainHeaderWrapper}>
-    <div className={style.container}>
-      <div className={style.mainHeader}>
-        <a href="/" className={style.navbarBrand}>
-          <i className="fas fa-terminal" />
-          marcusvinicius.info
-        </a>
+export default function Header() {
+  return (
+    <nav className={style.mainNavbar} role="navigation" aria-label="main navigation">
+      <div className={style.container}>
+        <div className={style.navbarBrand}>
+          <a href="/" className={style.navbarItem}>
+            <i className="fas fa-terminal" />
+            marcusvinicius.info
+          </a>
+        </div>
 
-        <Menu />
+        <div className={style.navBarMenu}>
+          <div className={style.navbarEnd}>
+            <div className={style.navbarItem}>
+              <Menu />
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </header>
-);
-
-export default Header;
+    </nav>
+  );
+}

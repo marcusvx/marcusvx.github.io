@@ -1,4 +1,4 @@
-import style from './style.less';
+import style from './style.scss';
 import { createRef } from 'preact';
 import { useEffect } from 'preact/hooks';
 

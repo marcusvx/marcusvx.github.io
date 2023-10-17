@@ -1,0 +1,67 @@
+@import '../../style/index.scss';
+@import "bulma/sass/utilities/mixins";
+@import "bulma/sass/elements/container";
+@import "bulma/sass/grid/columns";
+@import "bulma-timeline/dist/css/bulma-timeline";
+@import "bulma/sass/elements/tag";
+
+.experiences {
+  @extend .section;
+  @extend .container;
+
+  h2 {
+    color: rgb(30, 30, 30);
+  }
+
+  .timeline {
+    @extend .timeline;
+    width: 90%;
+
+    @include mobile {
+      width: 80%;
+    }
+
+    .timelineHeader {
+      @extend .timeline-header;
+
+      span {
+        @extend .tag;
+      }
+    }
+
+    .timelineBlock {
+      @extend .timeline-item;
+
+      .marker {
+        @extend .timeline-marker;
+      }
+
+      .content {
+        @extend .timeline-content;
+        text-align: left;
+        padding-top: 0;
+
+        p.duration {
+          font-size: 0.9rem;
+          margin: 0;
+        }
+
+        .timelineItemHeader {
+          @extend .heading;
+          border-bottom: solid 1px #ccc;
+          padding-bottom: 5px;
+        }
+
+        h3 {
+          margin: 0;
+        }
+      }
+    }
+
+    position: relative;
+    margin: 0 auto;
+
+
+  }
+}
+

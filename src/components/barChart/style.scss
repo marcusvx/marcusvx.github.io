@@ -1,9 +1,7 @@
-@import '../../style/index.less';
+@import '../../style/index.scss';
 
-@barHeight: 15px;
+$barHeight: 15px;
 .barGroup {
-  &:extend(.col-md-6);
-  &:extend(.col-xs-12);
   text-align: left;
   position: relative;
   margin-bottom: 45px;
@@ -21,7 +19,7 @@
 
   &.thick {
     width: 0;
-    height: @barHeight;
+    height: $barHeight;
     border-radius: 6px;
     margin-bottom: 5px;
     margin-top: 5px;
@@ -34,7 +32,7 @@
       z-index: 0;
       opacity: 0.1;
       width: 95%;
-      height: @barHeight;
+      height: $barHeight;
       border-radius: 6px;
       background: #fff;
     }
@@ -52,7 +50,7 @@
 }
 
 .barLabel {
-  &:extend(.b_label);
+  @extend .b_label;
   display: inline-block;
   border: 1px solid #fff;
   padding: 10px 20px;
@@ -67,14 +65,14 @@
 }
 
 .barLabelMax {
-  &:extend(.b_label);
-  &:extend(.b_label_position);
+  @extend .b_label;
+  @extend .b_label_position;
   right: 20px;
 }
 
 .barLabelMin {
-  &:extend(.b_label);
-  &:extend(.b_label_position);
+  @extend .b_label;
+  @extend .b_label_position;
   left: 20px;
 }
 
@@ -91,7 +89,7 @@
   box-shadow: 1px 1px 1px 1px #e2d9e2;
 
   span {
-    &:extend(.b_label);
+    @extend .b_label;
     color: #000;
   }
 }

@@ -1,0 +1,72 @@
+@import '../../style/variables.scss';
+@import '../../style/index.scss';
+@import "bulma/sass/elements/container";
+@import "bulma/sass/utilities/initial-variables";
+@import "bulma/sass/form/all";
+@import "bulma/sass/grid/columns";
+@import "bulma/sass/elements/button";
+
+.contact {
+  @extend .section;
+
+  .error {
+    @extend .is-danger;
+  }
+
+  .success {
+    @extend .is-success;
+  }
+
+  .container {
+    @extend .container;
+
+    form {
+      width: 60%;
+      margin: 0 auto;
+
+      @include mobile {
+        width: 80%;
+      }
+
+      button {
+        @extend .button;
+        width: 100%;
+      }
+
+      .formResponse {
+        padding: 8px 0;
+      }
+    }
+
+    .field {
+      @extend .field;
+
+      label {
+        @extend .label;
+        text-align: left;
+      }
+
+      input[type=text] {
+        @extend .input;
+        box-sizing: border-box;
+      }
+
+      textarea {
+        @extend .textarea;
+        box-sizing: border-box;
+      }
+
+
+      .errorHelper {
+        @extend .help;
+        @extend .is-danger;
+      }
+
+
+    }
+
+
+  }
+}
+
+

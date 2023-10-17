@@ -1,34 +1,29 @@
-@import '../../style/variables.less';
-@import '../../style/index.less';
+@import '../../style/variables.scss';
+@import '../../style/index.scss';
 
 .footer {
-  background: @dark;
+  background: $dark;
   text-align: center;
 
   .footerContainer {
-    &:extend(.container);
-    .clearfix();
 
     .footerRow {
-      &:extend(.row);
 
       .followMe {
         .links {
-          &:extend(.col-md-12);
-          &:extend(.col-xs-12);
         }
 
-        background: @white;
+        background: $white;
         border-radius: 0 0 10px 10px;
         display: inline-block;
         font-weight: 700;
         padding: 10px 20px;
         position: relative;
         text-transform: capitalize;
-        width: 130px;
+        width: 90px;
 
         &:before {
-          border-right: 10px solid @lightGray;
+          border-right: 10px solid $lightGray;
           border-top: 10px solid transparent;
           content: '';
           left: -10px;
@@ -37,7 +32,7 @@
         }
 
         &:after {
-          border-left: 10px solid @lightGray;
+          border-left: 10px solid $lightGray;
           border-top: 10px solid transparent;
           content: '';
           left: 130px;
@@ -55,7 +50,7 @@
         .icon {
           -webkit-transition: all 0.3s;
           background: #4c4c4c;
-          color: @white;
+          color: $white;
           display: inline-block;
           font-size: 1.5em;
           height: 50px;
@@ -72,6 +67,7 @@
             position: relative;
             transition: all 0.3s;
           }
+
           &:hover {
             i {
               &:first-child {
@@ -80,42 +76,47 @@
             }
           }
         }
+
         .icon.fb {
           &:hover {
             background: #3b5998;
           }
         }
+
         .icon.tw {
           &:hover {
             background: #55acee;
           }
         }
+
         .icon.gh {
           &:hover {
-            background: @colorDefault;
+            background: $colorDefault;
           }
         }
+
         .icon.gp {
           &:hover {
             background: #dc4e41;
           }
         }
+
         .icon.lin {
           &:hover {
             background: #0077b5;
           }
         }
+
         .icon.so {
           &:hover {
             background: #f48024;
           }
         }
       }
-      .copyright {
-        &:extend(.col-md-12);
-        &:extend(.col-xs-12);
 
-        border-top: 1px solid @colorDefault;
+      .copyright {
+
+        border-top: 1px solid $colorDefault;
         padding: 15px 0;
 
         h6 {

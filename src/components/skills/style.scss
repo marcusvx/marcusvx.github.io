@@ -1,0 +1,76 @@
+@import '../../style/index.scss';
+@import "bulma/sass/elements/container";
+@import "bulma/sass/grid/columns";
+@import "bulma/sass/helpers/spacing";
+
+
+.technicalSkills {
+  &::before {
+    background-image: url(../../assets/img/noise.png);
+    background-repeat: repeat;
+    bottom: 0;
+    content: '';
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: $fullWidth;
+    height: $fullWidth;
+    z-index: 0;
+  }
+
+  @extend .section;
+
+  .container {
+    @extend .container;
+  }
+
+  background: url(../../assets/img/coffee-bg.jpg);
+  background-size: cover;
+  position: relative;
+
+  h2 {
+    color: #eaeaea;
+    position: relative;
+  }
+
+  .headingLine {
+    background: #fff;
+  }
+
+  .skillsWrapper {
+    @extend .columns;
+
+    margin-top: 40px;
+
+    .skill {
+      @extend .column;
+      margin-bottom: 40px;
+
+      h2 {
+        margin-top: 10px;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+
+  .otherSkillsWrapper {
+    margin-top: 40px;
+
+    .otherSkills {
+      @extend .columns;
+      @extend .is-multiline;
+      @extend .is-centered;
+
+      .skillBar {
+        @extend .column;
+        @extend .is-one-third;
+
+        @include mobile {
+         padding-left: 40px;
+        }
+      }
+    }
+  }
+}

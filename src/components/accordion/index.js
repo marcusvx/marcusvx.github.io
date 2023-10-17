@@ -1,4 +1,4 @@
-import style from './style.less';
+import style from './style.scss';
 import { useCallback, useState } from 'preact/hooks';
 import { createRef } from 'preact';
 

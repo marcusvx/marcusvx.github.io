@@ -1,12 +1,11 @@
-@import '../../style/index.less';
+@import '../../style/index.scss';
 
 .quote {
-  &:extend(.has-overlay all);
+  @extend .has-overlay;
   padding: 80px 0;
   background-image: url(../../assets/img/bg-city-scape.jpg);
 
   .container {
-    &:extend(.container);
   }
 
   .quoteWrapper {

@@ -1,4 +1,4 @@
-import style from './style.less';
+import style from './style.scss';
 import bkgImage from '../../assets/img/code-bg.jpg';
 import Typewriter from 'typewriter-effect';
 

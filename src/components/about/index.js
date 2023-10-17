@@ -1,38 +1,17 @@
-import style from './style.less';
+import style from './style.scss';
 import photo from '../../assets/img/photo.jpg';
 import Accordion from '../accordion';
 import SectionHeader from '../sectionHeader';
+import classNames from 'classnames';
 
 export default function About() {
   return (
     <section className={style.aboutMe} id="about_me">
       <div className={style.container}>
-        <div className={style.row}>
-          <div className={style.myPic}>
-            <img src={photo} alt="my profile" />
+        <div className={classNames(style.column, style.oneThird)}>
+          <div className={style.picture}>
+            <img src={photo} alt="A picture of my face" />
           </div>
-          <div className={style.introduction}>
-            <SectionHeader title="Marcus Vinicius Ximenes" />
-
-            <p>
-              I am a seasoned software developer with over 15 years of experience, well-versed in the entire product
-              development lifecycle, from concept to launch.
-            </p>
-            <p>
-              I am passionate about writing clean code, adhering to SOLID principles, and practicing Test-Driven
-              Development (TDD)
-            </p>
-            <p>
-              My expertise spans a variety of technologies, including .NET Core, Java, Node.js, Typescript, GraphQL,
-              Angular (4+), React, and vanilla JavaScript
-            </p>
-            <p>
-              Additionally, I have experience as a technical leader, guiding architectural decisions, delegating tasks,
-              and fostering knowledge-sharing within development teams.
-            </p>
-          </div>
-        </div>
-        <div className={style.row}>
           <div className={style.profile}>
             <SectionHeader title="Reach Me" />
             <div className={style.personalWrapper}>
@@ -66,14 +45,35 @@ export default function About() {
               </span>
               <span>
                 <a className={style.socialLink} href="https://twitter.com/mavixbr" target="_blank" rel="noreferrer">
-                  <i className="fab fa-twitter" />
+                  <i className="fab fa-x-twitter" />
                   <span>Twitter</span>
                 </a>
               </span>
             </div>
           </div>
+        </div>
+        <div className={style.column}>
+          <div className={style.introduction}>
+            <SectionHeader title="Marcus Vinicius Ximenes" />
 
-          <div className={style.whyMe + ' col-sm-8 col-xs-12'}>
+            <p>
+              I am a seasoned software developer with over 15 years of experience, well-versed in the entire product
+              development lifecycle, from concept to launch.
+            </p>
+            <p>
+              I am passionate about writing clean code, adhering to SOLID principles, and practicing Test-Driven
+              Development (TDD)
+            </p>
+            <p>
+              My expertise spans a variety of technologies, including .NET Core, Java, Node.js, Typescript, GraphQL,
+              Angular (4+), React, and vanilla JavaScript
+            </p>
+            <p>
+              Additionally, I have experience as a technical leader, guiding architectural decisions, delegating tasks,
+              and fostering knowledge-sharing within development teams.
+            </p>
+          </div>
+          <div className={style.whyMe + ' col-sm-8 col-12'}>
             <Accordion />
           </div>
         </div>

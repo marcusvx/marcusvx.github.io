@@ -1,4 +1,4 @@
-import style from './style';
+import style from './style.scss';
 import classNames from 'classnames';
 
 const Footer = () => {
@@ -42,13 +42,13 @@ const Footer = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <i className="fab fa-twitter" />
-                <i className="fab fa-twitter" />
+                <i className="fab fa-x-twitter" />
+                <i className="fab fa-x-twitter" />
               </a>
             </div>
           </div>
           <div className={style.copyright}>
-            <h6>&copy; Marcus Vinicius Ximenes 2020 All Rights Reserved</h6>
+            <h6>&copy; Marcus Vinicius Ximenes 2023 - All Rights Reserved</h6>
           </div>
         </div>
       </div>

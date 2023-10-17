@@ -1,5 +1,5 @@
-@import '../../style/index.less';
-@import '../../style/variables.less';
+@import '../../style/index.scss';
+@import '../../style/variables.scss';
 
 .sectionHeader {
   display: flex;
@@ -11,7 +11,7 @@
     position: relative;
 
     &.darkBg {
-      color: @white;
+      color: $white;
     }
   }
 
@@ -20,12 +20,12 @@
   }
 
   .mainHeading {
-    &:extend(.main-heading);
+    @extend .main-heading;
     margin: 0;
   }
 
   .headingLine {
-    background: @colorDefault;
+    background: $colorDefault;
     display: inline-block;
     height: 3px;
     margin-bottom: 10px;
@@ -34,7 +34,7 @@
     width: 100px;
 
     &.darkBg {
-      background: @white;
+      background: $white;
     }
   }
 }
