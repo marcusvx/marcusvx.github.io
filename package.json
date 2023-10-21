@@ -39,19 +39,21 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.4.2",
+    "@preact/signals": "^1.2.1",
     "axios": "^1.5.1",
     "bulma": "^0.9.4",
     "bulma-timeline": "^3.0.5",
     "classnames": "^2.2.6",
     "countup.js": "^2.0.6",
+    "dayjs": "^1.11.10",
     "easy-pie-chart": "^2.1.7",
-    "less": "^4.2.0",
     "preact": "^10.3.2",
+    "preact-i18n": "2.4.0-preactx",
     "preact-render-to-string": "^6.2.2",
     "preact-router": "^4.1.2",
     "react-hook-form": "^7.47.0",
-    "react-in-viewport": "^1.0.0-alpha.14",
-    "typewriter-effect": "^2.21.0"
+    "react-i18next": "^13.3.0",
+    "react-in-viewport": "^1.0.0-alpha.14"
   },
   "jest": {
     "preset": "jest-preset-preact",

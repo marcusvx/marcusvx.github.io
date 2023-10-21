@@ -1,17 +1,25 @@
-import style from './style';
+import style from './style.scss';
 import classNames from 'classnames';
 
-const SectionHeader = props => {
-  const { title, subTitle, darkBg } = props;
+const SectionHeader = ({ darkBg, children }) => {
   const variantColor = darkBg ? style.darkBg : '';
 
   return (
     <div className={style.sectionHeader}>
-      <h2 className={style.mainHeading}>{title}</h2>
+      {children}
       <div className={classNames(style.headingLine, variantColor)} />
-      {subTitle ? <p className={classNames(style.subtitle, variantColor)}>{subTitle}</p> : null}
     </div>
   );
+};
+
+SectionHeader.Title = ({ children }) => {
+  return <h2 className={style.mainHeading}>{children}</h2>;
+};
+
+SectionHeader.SubTitle = ({ darkBg, children }) => {
+  const variantColor = darkBg ? style.darkBg : '';
+
+  return <p className={classNames(style.subtitle, variantColor)}>{children}</p>;
 };
 
 export default SectionHeader;

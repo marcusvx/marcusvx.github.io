@@ -1,9 +1,12 @@
 import Home from '../routes/home';
+import { LocalizationProvider } from '../localization';
 
 export default function App() {
   return (
-    <div id="app">
-      <Home />
-    </div>
+    <LocalizationProvider>
+      <div id="app">
+        <Home />
+      </div>
+    </LocalizationProvider>
   );
 }

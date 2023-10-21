@@ -1,0 +1,34 @@
+[
+  {
+    "value": 85,
+    "label": "Princípio SOLID"
+  },
+  {
+    "value": 80,
+    "label": "Orientação a objetos"
+  },
+  {
+    "value": 65,
+    "label": "Kotlin"
+  },
+  {
+    "value": 85,
+    "label": "TDD"
+  },
+  {
+    "value": 80,
+    "label": "React"
+  },
+  {
+    "value": 80,
+    "label": "Metodologias Ágeis"
+  },
+  {
+    "value": 55,
+    "label": "CI/CD"
+  },
+  {
+    "value": 90,
+    "label": "Angular"
+  }
+]

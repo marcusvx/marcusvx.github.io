@@ -1,0 +1,66 @@
+{
+  "code": "en-us",
+  "hero": {
+    "title": "I am Marcus",
+    "subtitle": "And I am a software developer!"
+  },
+  "about": {
+    "links_title": "Reach me",
+    "p1": "I am a seasoned software developer with over 15 years of experience, well-versed in the entire product development lifecycle, from concept to launch.",
+    "p2": "I am passionate about writing clean code, adhering to SOLID principles, and practicing Test-Driven Development (TDD)",
+    "p3": "My expertise spans a variety of technologies, including .NET Core, Java, Node.js, Typescript, GraphQL, Angular (4+), React, and vanilla JavaScript",
+    "p4": "Additionally, I have experience as a technical leader, guiding architectural decisions, delegating tasks, and fostering knowledge-sharing within development teams.",
+    "personal": {
+      "item1": {
+        "title": "Who am I?",
+        "p1": "I come from the vibrant city of São Paulo, Brazil, where I was born and raised.",
+        "p2": "I am a proud father of three wonderful children, a devoted husband, and a dedicated enthusiast of music and drumming in my spare time.",
+        "p3": "Beyond my deep-seated passion for programming and technology, I have an insatiable curiosity for the wonders of science and the mysteries of the cosmos, especially in the field of astronomy. Each day, I strive to expand my knowledge by embracing the opportunity to learn something new."
+      },
+      "item2": {
+        "title": "What are my hobbies",
+        "p1": "During my leisure hours, I indulge in playing video games, with a particular fondness for Nintendo, especially the \"Legend of Zelda\" franchise.",
+        "p2": "Music holds a special place as my second passion. Drumming and savoring the sounds of various genres, including progressive rock, hard rock, heavy metal, Brazilian music, jazz, and fusion, are pursuits I thoroughly enjoy."
+      },
+      "item3": {
+        "title": "How can you contact me?",
+        "p1": "On this page, links to all my social profiles can be found, providing convenient access for connection through any of them.",
+        "p2": "You can also use the form below to send me an email."
+      }
+    }
+  },
+  "skills": {
+    "title": "Technical Skills",
+    "subtitle": "Here you can find a short summary of my technical skills.",
+    "other_skills": {
+      "title": "Other skills",
+      "subtitle": "Languages, technologies and pratices of my preference."
+    }
+  },
+  "experiences": {
+    "title": "Work Experiences",
+    "subtitle": "A short summary of my professional experience",
+    "current": "Current"
+  },
+  "quote": {
+    "text": "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.",
+    "reference": "From the book: Refactoring - Improving the Design of Existing Code, p. 22"
+  },
+  "contact": {
+    "title": "Get in touch",
+    "name": "Your name",
+    "name_error": "Please enter your name",
+    "email": "Your email",
+    "email_error": "Please inform a valid email",
+    "message": "Your message",
+    "message_error": "Enter a message",
+    "submitting": "Sending",
+    "submit": "Send Message",
+    "result_error": "Error sending message",
+    "result_success": "Message sent!"
+  },
+  "footer": {
+    "reach_me": "Reach me",
+    "copyright": "All rights reserved"
+  }
+}

@@ -8,6 +8,7 @@ import Skills from '../../components/skills';
 import Experiences from '../../components/experiences';
 import Quote from '../../components/quote';
 import Contact from '../../components/contact';
+import { Text } from 'preact-i18n';
 
 export default function Home() {
   return (
@@ -17,12 +18,12 @@ export default function Home() {
       <About />
       <Skills />
       <Experiences />
-      <Quote
-        message="Any fool can write code that a
-          computer can understand. Good programmers write code that humans can
-          understand."
-        author="Martin Fowler"
-      />
+      <Quote author="Martin Fowler" reference={<Text id="quote.reference"></Text>}>
+        <Text id="quote.text">
+          Any fool can write code that a computer can understand. Good programmers write code that humans can
+          understand.
+        </Text>
+      </Quote>
       <Contact />
       <Footer />
     </Fragment>

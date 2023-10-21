@@ -1,6 +1,9 @@
 @import '../../style/index.scss';
 @import "bulma/sass/components/navbar";
+@import "bulma/sass/components/dropdown";
 @import "bulma/sass/elements/container";
+@import "bulma/sass/elements/button";
+@import "bulma/sass/helpers/other";
 
 .mainNavbar {
   @extend .navbar;
@@ -14,11 +17,54 @@
     }
   }
 
-  .navBarMenu {
-    @extend .navbar-menu;
 
-    .navbarEnd {
-      @extend .navbar-end;
+  .navbarEnd {
+    @extend .navbar-end;
+
+
+    .languageOptions {
+      @extend .navbar-item;
+      @extend .has-dropdown;
+      @extend .is-hoverable;
+
+      .is-arrowless {
+        @extend .navbar-link;
+      }
+
+      .languageDropdownLink {
+
+        font-size: 0.8rem;
+        border: none;
+        background-color: inherit;
+
+        i {
+          margin-right: 8px;
+        }
+
+        ::after {
+          border: none;
+        }
+      }
+
+      .languageDropdown {
+        @extend .navbar-dropdown;
+
+
+        button {
+          @extend .navbar-item;
+          @extend .is-clickable;
+          @extend .is-hoverable;
+          border: none;
+          background-color: inherit;
+          font-size: 0.8rem;
+        }
+      }
+
+      img:last-child {
+        margin-left: 5px;
+      }
+
+
     }
   }
 
