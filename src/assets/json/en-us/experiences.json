@@ -1,7 +1,7 @@
 [
   {
     "company": "The Luupe",
-    "start": "2022-04",
+    "start": "2022-04-10T12:00:00.000Z",
     "end": null,
     "title": "Senior Software Developer",
     "description": [
@@ -10,12 +10,18 @@
       "The application was crafted using modern technology, built on Next.js with TypeScript and GraphQL. This allowed us to deliver a responsive, efficient and low-cost platform.",
       "Additionally, the application's infrastructure was designed and implemented using Google Cloud Platform (GCP), contributing to a scalable solution that met the needs of both our users and clients."
     ],
-    "keywords": ["Javascript", "Typescript", "Next.JS", "GCP", "GraphQL"]
+    "keywords": [
+      "Javascript",
+      "Typescript",
+      "Next.JS",
+      "GCP",
+      "GraphQL"
+    ]
   },
   {
     "company": "Thoughtworks",
-    "start": "2019-02",
-    "end": "2022-04",
+    "start": "2019-02-10T12:00:00.000Z",
+    "end": "2022-04-10T12:00:00.000Z",
     "title": "Lead Consultant Developer",
     "description": [
       "Worked as a consultant on projects for a digital bank, focusing on credit card solutions.",
@@ -24,12 +30,19 @@
       "Planned and architected frontend applications using microfrontend approaches with Single SPA and React.",
       "Mentored and led other developers, facilitating knowledge sharing and problem-solving."
     ],
-    "keywords": ["Kotlin", "React", "AWS", "Microservices", "Microfrontends", "GraphQL"]
+    "keywords": [
+      "Kotlin",
+      "React",
+      "AWS",
+      "Microservices",
+      "Microfrontends",
+      "GraphQL"
+    ]
   },
   {
     "company": "Itaú Unibanco",
-    "start": "2018-11",
-    "end": "2019-02",
+    "start": "2018-11-10T12:00:00.000Z",
+    "end": "2019-02-10T12:00:00.000Z",
     "title": "Solutions Architect",
     "description": [
       "Contributed to the Solutions Architecture team at Brazil's largest bank.",
@@ -37,12 +50,18 @@
       "Worked closely with developers and engineers to implement technological solutions.",
       "Designed migration strategies to bridge gaps between existing software architecture and future updates."
     ],
-    "keywords": ["Java", "Spring", "Apache Camel", "Springboot", ".Net Framework"]
+    "keywords": [
+      "Java",
+      "Spring",
+      "Apache Camel",
+      "Springboot",
+      ".Net Framework"
+    ]
   },
   {
     "company": "Netbiis Software",
-    "start": "2017-06",
-    "end": "2018-11",
+    "start": "2017-06-10T12:00:00.000Z",
+    "end": "2018-11-10T12:00:00.000Z",
     "title": "Senior Fullstack Developer",
     "description": [
       "Worked at a small Brazilian software company that provided global solutions, progressing from a full-stack developer to a software architect and lead developer. Initially, I independently developed all application solutions for a California-based startup, actively participating in all development phases, from conception to delivery. For this client, I created backend services utilizing REST APIs, integrating with timesheet software such as Homebase and ADB.",
@@ -50,24 +69,37 @@
       "This particular software served as a B2B solution for travel companies, facilitating hotel availability, car rentals, ticketing, and transfers. The backend was developed using .NET Core, employing a Domain-Driven Design (DDD) approach to construct separate microservices catering to distinct business domains. All frontend development leveraged Angular 5+.",
       "Beyond coding, I engaged in code reviews to ensure adherence to established patterns and actively assisted other developers through pair programming."
     ],
-    "keywords": [".NET Core", "Nodejs", "Angular", "Ionic", "Android"]
+    "keywords": [
+      ".NET Core",
+      "Nodejs",
+      "Angular",
+      "Ionic",
+      "Android"
+    ]
   },
   {
     "company": "Aurea Software",
-    "start": "2016-06",
-    "end": "2017-06",
+    "start": "2016-06-10T12:00:00.000Z",
+    "end": "2017-06-10T12:00:00.000Z",
     "title": "Software Engineer",
     "description": [
       "Employed at one of the world's largest software companies, I was part of a dedicated team with a primary focus on unit testing and enhancing code quality across numerous projects developed in C# and Java.",
       "In this role, my responsibilities encompassed code refactoring, the creation of both unit and integration tests, and the development of scripts for automating unit test execution within CI/CD pipelines.",
       "I also played a key role in defining patterns and strategies to effectively implement unit tests in existing applications, ensuring comprehensive code coverage and quality improvement."
     ],
-    "keywords": ["TDD", "Unit Tests", "CI/CD", "Test Automatization", "Java", ".Net Framework"]
+    "keywords": [
+      "TDD",
+      "Unit Tests",
+      "CI/CD",
+      "Test Automatization",
+      "Java",
+      ".Net Framework"
+    ]
   },
   {
     "company": "Digitalmed Technology",
-    "start": "2012-09",
-    "end": "2016-06",
+    "start": "2012-09-10T12:00:00.000Z",
+    "end": "2016-06-10T12:00:00.000Z",
     "title": "Senior Software Developer",
     "description": [
       "As a member of the development team for a substantial Laboratory Information Management System (LIS), I assumed a pivotal role in various capacities:",
@@ -92,34 +124,53 @@
   },
   {
     "company": "Adapt Solutions",
-    "start": "2011-01",
-    "end": "2012-09",
+    "start": "2011-01-10T12:00:00.000Z",
+    "end": "2012-09-10T12:00:00.000Z",
     "title": "Software Developer",
     "description": [
       "I was engaged as a developer tasked with enhancing and introducing new features to a public school management application.",
       "My primary responsibility entailed creating a dynamic reporting system designed to serve teachers and administrators in collecting student data, generating comprehensive statistics, and producing informative charts.",
       "This web application was developed using ASP.Net WebForms, SQL Server, and incorporated jQuery and Ajax to enhance interactivity and responsiveness, ensuring an effective and user-friendly solution for educators and school administrators."
     ],
-    "keywords": [".NET Framework", "ASP.NET Webforms", "JQuery", "ASP.NET MVC", "SQL Server"]
+    "keywords": [
+      ".NET Framework",
+      "ASP.NET Webforms",
+      "JQuery",
+      "ASP.NET MVC",
+      "SQL Server"
+    ]
   },
   {
     "company": "CWI Software",
-    "start": "2010-06",
-    "end": "2011-01",
+    "start": "2010-06-10T12:00:00.000Z",
+    "end": "2011-01-10T12:00:00.000Z",
     "title": "Software Developer",
     "description": [
       "Outsourced developer working for a banking company, developing integrations between legacy systems and new applications being developed Participation developing an application using SOA architecture with WCF and WPF front ends."
     ],
-    "keywords": ["WPF", "WCF", "System Integrations", "SOA", "SQL Server"]
+    "keywords": [
+      "WPF",
+      "WCF",
+      "System Integrations",
+      "SOA",
+      "SQL Server"
+    ]
   },
   {
     "company": "Seeker Technology",
-    "start": "2008-09",
-    "end": "2010-06",
+    "start": "2008-09-10T12:00:00.000Z",
+    "end": "2010-06-10T12:00:00.000Z",
     "title": "Junior Software Developer",
     "description": [
       "Hired as developer to work in a human resource application used to control recruitment processes. Recruiters could search with complex filters for specific candidate profiles and manage all communication between recruiters and candidates. Candidates could create, import and maintain their resumes within the platform and even import information from Linkedin. Responsible for adding a new feature that allowed recruiters search text inside PDF and Word Documents saved on the database using full text search."
     ],
-    "keywords": ["ASP.NET Webforms", "JQuery", "SQL Server", "VB.NET", "IIS", "WCF"]
+    "keywords": [
+      "ASP.NET Webforms",
+      "JQuery",
+      "SQL Server",
+      "VB.NET",
+      "IIS",
+      "WCF"
+    ]
   }
 ]

@@ -3,6 +3,7 @@ import photo from '../../assets/img/photo.jpg';
 import Accordion from '../accordion';
 import SectionHeader from '../sectionHeader';
 import classNames from 'classnames';
+import { Text } from 'preact-i18n';
 
 export default function About() {
   return (
@@ -13,7 +14,11 @@ export default function About() {
             <img src={photo} alt="A picture of my face" />
           </div>
           <div className={style.profile}>
-            <SectionHeader title="Reach Me" />
+            <SectionHeader>
+              <SectionHeader.Title>
+                <Text id="about.links_title"></Text>
+              </SectionHeader.Title>
+            </SectionHeader>
             <div className={style.personalWrapper}>
               <span>
                 <a
@@ -54,27 +59,54 @@ export default function About() {
         </div>
         <div className={style.column}>
           <div className={style.introduction}>
-            <SectionHeader title="Marcus Vinicius Ximenes" />
-
+            <SectionHeader>
+              <SectionHeader.Title>Marcus Vinicius Ximenes</SectionHeader.Title>
+            </SectionHeader>
             <p>
-              I am a seasoned software developer with over 15 years of experience, well-versed in the entire product
-              development lifecycle, from concept to launch.
+              <Text id="about.p1"></Text>
             </p>
             <p>
-              I am passionate about writing clean code, adhering to SOLID principles, and practicing Test-Driven
-              Development (TDD)
+              <Text id="about.p2"></Text>
             </p>
             <p>
-              My expertise spans a variety of technologies, including .NET Core, Java, Node.js, Typescript, GraphQL,
-              Angular (4+), React, and vanilla JavaScript
+              <Text id="about.p3"></Text>
             </p>
             <p>
-              Additionally, I have experience as a technical leader, guiding architectural decisions, delegating tasks,
-              and fostering knowledge-sharing within development teams.
+              <Text id="about.p4"></Text>
             </p>
           </div>
-          <div className={style.whyMe + ' col-sm-8 col-12'}>
-            <Accordion />
+          <div className={style.whyMe}>
+            <Accordion>
+              <Accordion.Section title={<Text id="about.personal.item1.title"></Text>}>
+                <p>
+                  <Text id="about.personal.item1.p1"></Text>
+                </p>
+                <p>
+                  <Text id="about.personal.item1.p2"></Text>
+                </p>
+                <p>
+                  <Text id="about.personal.item1.p3"></Text>
+                </p>
+              </Accordion.Section>
+
+              <Accordion.Section title={<Text id="about.personal.item2.title"></Text>}>
+                <p>
+                  <Text id="about.personal.item2.p1"></Text>
+                </p>
+                <p>
+                  <Text id="about.personal.item2.p2"></Text>
+                </p>
+              </Accordion.Section>
+
+              <Accordion.Section title={<Text id="about.personal.item3.title"></Text>}>
+                <p>
+                  <Text id="about.personal.item3.p1"></Text>
+                </p>
+                <p>
+                  <Text id="about.personal.item3.p2"></Text>
+                </p>
+              </Accordion.Section>
+            </Accordion>
           </div>
         </div>
       </div>

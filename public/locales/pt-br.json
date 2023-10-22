@@ -1,0 +1,66 @@
+{
+  "code": "pt-br",
+  "hero": {
+    "title": "Eu sou o Marcus",
+    "subtitle": "E sou um desenvolvedor de software!"
+  },
+  "about": {
+    "links_title": "Entre em contato",
+    "p1": "Sou um experiente desenvolvedor de software com mais de 15 anos de experiência, bem versado em todo o ciclo de desenvolvimento de produtos, desde o conceito até o lançamento.",
+    "p2": "Sou apaixonado por escrever código limpo, seguir os princípios SOLID e praticar Desenvolvimento Orientado a Testes (TDD).",
+    "p3": "Minha expertise abrange uma variedade de tecnologias, incluindo .NET Core, Java, Node.js, Typescript, GraphQL, Angular (4+), React e JavaScript puro.",
+    "p4": "Além disso, tenho experiência como líder técnico, orientando decisões arquiteturais, delegando tarefas e promovendo o compartilhamento de conhecimento dentro das equipes de desenvolvimento.",
+    "personal": {
+      "item1": {
+        "title": "Quem sou eu?",
+        "p1": "Eu sou natural da vibrante cidade de São Paulo, Brasil, onde nasci e cresci.",
+        "p2": "Sou um orgulhoso pai de três maravilhosos filhos, um marido dedicado e um entusiasta dedicado da música e da percussão no meu tempo livre.",
+        "p3": "Além da minha profunda paixão pela programação e tecnologia, tenho uma curiosidade insaciável pelas maravilhas da ciência e pelos mistérios do cosmos, especialmente no campo da astronomia. Todos os dias, busco expandir meu conhecimento abraçando a oportunidade de aprender algo novo."
+      },
+      "item2": {
+        "title": "Quais são os meus hobbies?",
+        "p1": "Durante as horas de lazer, eu me dedico a jogar videogames, com um carinho especial pela Nintendo, especialmente pela franquia \"Legend of Zelda\".",
+        "p2": "A música ocupa um lugar especial como minha segunda paixão. Tocar bateria e apreciar os sons de vários gêneros, incluindo rock progressivo, rock pesado, heavy metal, música brasileira, jazz e fusion, são atividades que eu aprecio bastante."
+      },
+      "item3": {
+        "title": "Como você pode entrar em contato comigo?",
+        "p1": "Nesta página, você encontrará links para todos os meus perfis nas redes sociais, proporcionando um acesso conveniente para se conectar por meio de qualquer um deles.",
+        "p2": "Você também pode usar o formulário abaixo para me enviar um e-mail."
+      }
+    }
+  },
+  "skills": {
+    "title": "Habilidades técnicas",
+    "subtitle": "Um curto resumo das minhas habilidades técnicas",
+    "other_skills": {
+      "title": "Outras habilidades",
+      "subtitle": "Linguagens, tecnologia e práticas da minha preferência"
+    }
+  },
+  "experiences": {
+    "title": "Experiência Profissional",
+    "subtitle": "Um curto resumo da minha carreira",
+    "current": "Atual"
+  },
+  "quote": {
+    "text": "Qualquer tolo pode escrever códigos que um compoutador possa entender. Bons programadores escrevem códigos que os seres humanos podem entender",
+    "reference": "Do livro: Refatoração - Aperfeiçoando o design de códigos existentes, p. 22"
+  },
+  "contact": {
+    "title": "Entre em contato",
+    "name": "Seu nome",
+    "name_error": "Informe seu nome",
+    "email": "Seu email",
+    "email_error": "Por favor informe um email válido",
+    "message": "Sua mensagem",
+    "message_error": "Digite uma mensagem",
+    "submitting": "Enviando",
+    "submit": "Enviar",
+    "result_error": "Erro ao eniar mensagem",
+    "result_success": "Mensagem enviada!"
+  },
+  "footer": {
+    "reach_me": "Minhas redes",
+    "copyright": "Todos direitos reservados"
+  }
+}

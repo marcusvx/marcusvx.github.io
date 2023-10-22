@@ -1,12 +1,15 @@
 import style from './style.scss';
 import classNames from 'classnames';
+import { Text } from 'preact-i18n';
 
 const Footer = () => {
   return (
     <footer className={style.footer}>
       <div className={style.footerContainer}>
         <div className={style.footerRow}>
-          <div className={style.followMe}>Reach me</div>
+          <div className={style.followMe}>
+            <Text id="footer.reach_me">Reach me</Text>
+          </div>
           <div className={style.links}>
             <div className={style.iconWrapper}>
               <a
@@ -48,7 +51,9 @@ const Footer = () => {
             </div>
           </div>
           <div className={style.copyright}>
-            <h6>&copy; Marcus Vinicius Ximenes 2023 - All Rights Reserved</h6>
+            <h6>
+              &copy; Marcus Vinicius Ximenes 2023 - <Text id="footer.copyright">All rights reserved</Text>
+            </h6>
           </div>
         </div>
       </div>
