@@ -4,3 +4,4 @@ node_modules
 src/assets/.DS_Store
 .DS_Store
 .idea
+size-plugin.json
