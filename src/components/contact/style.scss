@@ -1,10 +1,10 @@
 @import '../../style/variables.scss';
 @import '../../style/index.scss';
-@import "bulma/sass/elements/container";
-@import "bulma/sass/utilities/initial-variables";
-@import "bulma/sass/form/all";
-@import "bulma/sass/grid/columns";
-@import "bulma/sass/elements/button";
+@import 'bulma/sass/elements/container';
+@import 'bulma/sass/utilities/initial-variables';
+@import 'bulma/sass/form/all';
+@import 'bulma/sass/grid/columns';
+@import 'bulma/sass/elements/button';
 
 .contact {
   @extend .section;
@@ -47,7 +47,7 @@
         text-align: left;
       }
 
-      input[type=text] {
+      input[type='text'] {
         @extend .input;
         box-sizing: border-box;
       }
@@ -57,17 +57,10 @@
         box-sizing: border-box;
       }
 
-
       .errorHelper {
         @extend .help;
         @extend .is-danger;
       }
-
-
     }
-
-
   }
 }
-
-

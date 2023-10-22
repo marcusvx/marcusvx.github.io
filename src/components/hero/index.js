@@ -9,7 +9,7 @@ const Hero = () => {
         <h1>
           <Text id="hero.title">I am Marcus</Text>
         </h1>
-        <TypedText translationId="hero.subtitle"></TypedText>
+        <TypedText translationId="hero.subtitle" />
         <a className={style.button} href="#about_me">
           Read more
         </a>

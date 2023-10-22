@@ -5,6 +5,7 @@ import { useContext, useEffect, useMemo, useState } from 'preact/hooks';
 import { Localization } from '../../localization';
 import * as dayjs from 'dayjs';
 import { Text } from 'preact-i18n';
+import { Fragment } from 'preact';
 
 const formatJobDate = date => {
   return dayjs(date).format('MMM YYYY');
@@ -51,7 +52,7 @@ export default function Experiences() {
           experiences.map((item, index) => {
             const { end, start, company, title, description } = item;
             return (
-              <>
+              <Fragment key={`${company}-${title}`}>
                 {index % 2 !== 0 ? (
                   <header className={style.timelineHeader}>
                     <span>{new Date(end || start).getFullYear().toString()}</span>
@@ -76,7 +77,7 @@ export default function Experiences() {
                     ))}
                   </div>
                 </div>
-              </>
+              </Fragment>
             );
           })}
         <header className={style.timelineHeader}>

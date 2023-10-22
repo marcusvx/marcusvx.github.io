@@ -18,7 +18,7 @@ export default function Home() {
       <About />
       <Skills />
       <Experiences />
-      <Quote author="Martin Fowler" reference={<Text id="quote.reference"></Text>}>
+      <Quote author="Martin Fowler" reference={<Text id="quote.reference" />}>
         <Text id="quote.text">
           Any fool can write code that a computer can understand. Good programmers write code that humans can
           understand.
