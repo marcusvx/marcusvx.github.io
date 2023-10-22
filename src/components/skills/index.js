@@ -15,10 +15,10 @@ const ViewPortSkills = props => {
       <div className={style.container}>
         <SectionHeader darkBg="true">
           <SectionHeader.Title>
-            <Text id="skills.title"></Text>
+            <Text id="skills.title" />
           </SectionHeader.Title>
           <SectionHeader.SubTitle darkBg="true">
-            <Text id="skills.subtitle"></Text>
+            <Text id="skills.subtitle" />
           </SectionHeader.SubTitle>
         </SectionHeader>
 
@@ -48,8 +48,8 @@ const ViewPortSkills = props => {
             {enterCount >= 1 && barValues ? (
               <>
                 {barValues.map(item => (
-                  <div className={style.skillBar}>
-                    <BarChart key={item.label} value={item.value} label={item.label} />
+                  <div key={item.label} className={style.skillBar}>
+                    <BarChart value={item.value} label={item.label} />
                   </div>
                 ))}
               </>

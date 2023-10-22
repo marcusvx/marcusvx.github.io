@@ -1,8 +1,7 @@
 @import '../../style/index.scss';
-@import "bulma/sass/elements/container";
-@import "bulma/sass/grid/columns";
-@import "bulma/sass/helpers/spacing";
-
+@import 'bulma/sass/elements/container';
+@import 'bulma/sass/grid/columns';
+@import 'bulma/sass/helpers/spacing';
 
 .technicalSkills {
   &::before {
@@ -49,7 +48,6 @@
       }
     }
   }
-
 
   .otherSkillsWrapper {
     margin-top: 40px;

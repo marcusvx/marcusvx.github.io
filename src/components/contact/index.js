@@ -12,9 +12,7 @@ export default function Contact() {
     register,
     handleSubmit,
     formState: { errors },
-    watch,
     reset,
-    set,
   } = useForm();
   const [formResult, setFormResult] = useState('');
   const [submitting, setSubmitting] = useState(false);
@@ -114,7 +112,7 @@ export default function Contact() {
             </button>
           </div>
           <div className={classNames(style.formResponse, formResult ? style.success : style.error)}>
-            {formResult && <TypedText translationId={formResult}></TypedText>}
+            {formResult && <TypedText translationId={formResult} />}
           </div>
         </form>
       </div>

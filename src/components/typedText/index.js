@@ -11,5 +11,5 @@ export const TypedText = ({ translationId }) => {
     );
   });
 
-  return <Typed></Typed>;
+  return <Typed />;
 };

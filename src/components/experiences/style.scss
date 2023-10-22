@@ -1,9 +1,9 @@
 @import '../../style/index.scss';
-@import "bulma/sass/utilities/mixins";
-@import "bulma/sass/elements/container";
-@import "bulma/sass/grid/columns";
-@import "bulma-timeline/dist/css/bulma-timeline";
-@import "bulma/sass/elements/tag";
+@import 'bulma/sass/utilities/mixins';
+@import 'bulma/sass/elements/container';
+@import 'bulma/sass/grid/columns';
+@import 'bulma-timeline/dist/css/bulma-timeline';
+@import 'bulma/sass/elements/tag';
 
 .experiences {
   @extend .section;
@@ -61,8 +61,5 @@
 
     position: relative;
     margin: 0 auto;
-
-
   }
 }
-

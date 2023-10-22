@@ -16,7 +16,7 @@ export default function About() {
           <div className={style.profile}>
             <SectionHeader>
               <SectionHeader.Title>
-                <Text id="about.links_title"></Text>
+                <Text id="about.links_title" />
               </SectionHeader.Title>
             </SectionHeader>
             <div className={style.personalWrapper}>
@@ -63,47 +63,47 @@ export default function About() {
               <SectionHeader.Title>Marcus Vinicius Ximenes</SectionHeader.Title>
             </SectionHeader>
             <p>
-              <Text id="about.p1"></Text>
+              <Text id="about.p1" />
             </p>
             <p>
-              <Text id="about.p2"></Text>
+              <Text id="about.p2" />
             </p>
             <p>
-              <Text id="about.p3"></Text>
+              <Text id="about.p3" />
             </p>
             <p>
-              <Text id="about.p4"></Text>
+              <Text id="about.p4" />
             </p>
           </div>
           <div className={style.whyMe}>
             <Accordion>
-              <Accordion.Section title={<Text id="about.personal.item1.title"></Text>}>
+              <Accordion.Section title={<Text id="about.personal.item1.title" />}>
                 <p>
-                  <Text id="about.personal.item1.p1"></Text>
+                  <Text id="about.personal.item1.p1" />
                 </p>
                 <p>
-                  <Text id="about.personal.item1.p2"></Text>
+                  <Text id="about.personal.item1.p2" />
                 </p>
                 <p>
-                  <Text id="about.personal.item1.p3"></Text>
-                </p>
-              </Accordion.Section>
-
-              <Accordion.Section title={<Text id="about.personal.item2.title"></Text>}>
-                <p>
-                  <Text id="about.personal.item2.p1"></Text>
-                </p>
-                <p>
-                  <Text id="about.personal.item2.p2"></Text>
+                  <Text id="about.personal.item1.p3" />
                 </p>
               </Accordion.Section>
 
-              <Accordion.Section title={<Text id="about.personal.item3.title"></Text>}>
+              <Accordion.Section title={<Text id="about.personal.item2.title" />}>
                 <p>
-                  <Text id="about.personal.item3.p1"></Text>
+                  <Text id="about.personal.item2.p1" />
                 </p>
                 <p>
-                  <Text id="about.personal.item3.p2"></Text>
+                  <Text id="about.personal.item2.p2" />
+                </p>
+              </Accordion.Section>
+
+              <Accordion.Section title={<Text id="about.personal.item3.title" />}>
+                <p>
+                  <Text id="about.personal.item3.p1" />
+                </p>
+                <p>
+                  <Text id="about.personal.item3.p2" />
                 </p>
               </Accordion.Section>
             </Accordion>

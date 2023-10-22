@@ -37,7 +37,7 @@ export default function Header() {
               className={classNames(style.languageDropdownLink, style['is-arrowless'])}
               onClick={() => handleChangeLanguage(context.value)}
             >
-              <i className="fa-solid fa-language"></i> {LANGUAGES[context.value]}
+              <i className="fa-solid fa-language" /> {LANGUAGES[context.value]}
             </button>
             {languageOptions.map(language => (
               <div key={language.code} className={style.languageDropdown}>

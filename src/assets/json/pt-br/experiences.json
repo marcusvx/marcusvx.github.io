@@ -10,13 +10,7 @@
       "A aplicação foi desenvolvida com tecnologia moderna, construída com Next.js, TypeScript e GraphQL. Isso nos permitiu oferecer uma plataforma responsiva, eficiente e de baixo custo.",
       "Além disso, a infraestrutura da aplicação foi projetada e implementada usando o Google Cloud Platform (GCP), contribuindo para uma solução escalável que atendia às necessidades de nossos usuários e clientes."
     ],
-    "keywords": [
-      "Javascript",
-      "Typescript",
-      "Next.JS",
-      "GCP",
-      "GraphQL"
-    ]
+    "keywords": ["Javascript", "Typescript", "Next.JS", "GCP", "GraphQL"]
   },
   {
     "company": "Thoughtworks",
@@ -30,14 +24,7 @@
       "Planejei e arquitetei aplicações frontend usando abordagens de microfrontend com Single SPA e React.",
       "Orientei e liderei outros desenvolvedores, facilitando o compartilhamento de conhecimento e resolução de problemas."
     ],
-    "keywords": [
-      "Kotlin",
-      "React",
-      "AWS",
-      "Microservices",
-      "Microfrontends",
-      "GraphQL"
-    ]
+    "keywords": ["Kotlin", "React", "AWS", "Microservices", "Microfrontends", "GraphQL"]
   },
   {
     "company": "Itaú Unibanco",
@@ -50,13 +37,7 @@
       "Trabalhei em estreita colaboração com desenvolvedores e engenheiros para implementar soluções tecnológicas.",
       "Projetei estratégias de migração para preencher lacunas entre a arquitetura de software existente e atualizações futuras."
     ],
-    "keywords": [
-      "Java",
-      "Spring",
-      "Apache Camel",
-      "Springboot",
-      ".Net Framework"
-    ]
+    "keywords": ["Java", "Spring", "Apache Camel", "Springboot", ".Net Framework"]
   },
   {
     "company": "Netbiis Software",
@@ -69,13 +50,7 @@
       "Esse software específico serviu como uma solução B2B para empresas de viagens, facilitando a disponibilidade de hotéis, aluguel de carros, emissão de ingressos e transferências. O backend foi desenvolvido com .NET Core, empregando uma abordagem de Design Orientado ao Domínio (DDD) para construir microserviços separados que atendem a domínios de negócios distintos. Todo o desenvolvimento frontend foi alavancado pelo Angular 5+.",
       "Além da codificação, participei de revisões de código para garantir a adesão a padrões estabelecidos e auxiliei ativamente outros desenvolvedores por meio de programação em pares."
     ],
-    "keywords": [
-      ".NET Core",
-      "Nodejs",
-      "Angular",
-      "Ionic",
-      "Android"
-    ]
+    "keywords": [".NET Core", "Nodejs", "Angular", "Ionic", "Android"]
   },
   {
     "company": "Aurea Software",
@@ -87,14 +62,7 @@
       "Nesse papel, minhas responsabilidades incluíram refatoração de código, criação de testes unitários e de integração, e desenvolvimento de scripts para automação de testes unitários em pipelines de CI/CD.",
       "Também desempenhei um papel fundamental na definição de padrões e estratégias para implementar efetivamente testes unitários em aplicações existentes, garantindo uma cobertura abrangente de código e melhoria da qualidade."
     ],
-    "keywords": [
-      "TDD",
-      "Testes Unitários",
-      "CI/CD",
-      "Automatização de Testes",
-      "Java",
-      ".Net Framework"
-    ]
+    "keywords": ["TDD", "Testes Unitários", "CI/CD", "Automatização de Testes", "Java", ".Net Framework"]
   },
   {
     "company": "Digitalmed Technology",
@@ -132,13 +100,7 @@
       "Minha principal responsabilidade envolveu a criação de um sistema dinâmico de relatórios projetado para atender a professores e administradores na coleta de dados de alunos, geração de estatísticas abrangentes e produção de gráficos informativos.",
       "Esta aplicação web foi desenvolvida usando ASP.Net WebForms, SQL Server e incorporou jQuery e Ajax para aprimorar a interatividade e responsividade, garantindo uma solução eficaz e amigável para educadores e administradores escolares."
     ],
-    "keywords": [
-      ".NET Framework",
-      "ASP.NET Webforms",
-      "JQuery",
-      "ASP.NET MVC",
-      "SQL Server"
-    ]
+    "keywords": [".NET Framework", "ASP.NET Webforms", "JQuery", "ASP.NET MVC", "SQL Server"]
   },
   {
     "company": "CWI Software",
@@ -148,13 +110,7 @@
     "description": [
       "Desenvolvedor terceirizado trabalhando para uma empresa bancária, desenvolvendo integrações entre sistemas legados e novas aplicações em desenvolvimento. Participação no desenvolvimento de uma aplicação usando arquitetura SOA com front-ends WCF e WPF."
     ],
-    "keywords": [
-      "WPF",
-      "WCF",
-      "Integração de Sistemas",
-      "SOA",
-      "SQL Server"
-    ]
+    "keywords": ["WPF", "WCF", "Integração de Sistemas", "SOA", "SQL Server"]
   },
   {
     "company": "Seeker Technology",
@@ -164,13 +120,6 @@
     "description": [
       "Contratado como desenvolvedor para trabalhar em um aplicativo de recursos humanos usado para controlar processos de recrutamento. Os recrutadores podiam pesquisar com filtros complexos perfis específicos de candidatos e gerenciar toda a comunicação entre recrutadores e candidatos. Os candidatos podiam criar, importar e manter seus currículos na plataforma e até importar informações do LinkedIn. Responsável por adicionar um novo recurso que permitia aos recrutadores buscar texto em documentos PDF e Word salvos no banco de dados usando busca em texto completo."
     ],
-    "keywords": [
-      "ASP.NET Webforms",
-      "JQuery",
-      "SQL Server",
-      "VB.NET",
-      "IIS",
-      "WCF"
-    ]
+    "keywords": ["ASP.NET Webforms", "JQuery", "SQL Server", "VB.NET", "IIS", "WCF"]
   }
 ]
