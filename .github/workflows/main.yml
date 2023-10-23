@@ -31,6 +31,8 @@ jobs:
           server: ${{ vars.FTP_HOSTNAME }}
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./public/
+          server-dir: ./public_html/
           dangerous-clean-slate: true
           exclude: |
             **/.htaccess
