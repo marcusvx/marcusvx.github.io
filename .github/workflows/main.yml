@@ -20,10 +20,7 @@ jobs:
           cache: npm
 
       - name: Install
-        run: npm install
-
-      - name: Install
-        run: npm run build
+        run: npm run ci
 
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
@@ -31,7 +28,7 @@ jobs:
           server: ${{ vars.FTP_HOSTNAME }}
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./public/
+          local-dir: ./build/
           server-dir: ./public_html/
           dangerous-clean-slate: true
           exclude: |
