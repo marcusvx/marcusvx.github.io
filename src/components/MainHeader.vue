@@ -17,7 +17,7 @@ function toggleMenu() {
 @import 'bulma/sass/elements/icon';
 </style>
 <template>
-  <nav class="navbar" role="navigation" aria-label="main navigation">
+  <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <a href="/" class="navbar-item">
         <i class="fas fa-terminal" />
