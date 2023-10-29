@@ -1,5 +1,5 @@
 <template>
-  <section id="hero" class="hero">
+  <section id="home" class="hero">
     <div class="content">
       <h1>
         {{ $t('hero.title') }}
@@ -21,7 +21,7 @@
   @extend .has-overlay;
   position: relative;
   width: 100%;
-  height: calc(100vh - $navbar-height);
+  height: 100vh;
   overflow: hidden;
   background-size: cover;
   z-index: 1;
