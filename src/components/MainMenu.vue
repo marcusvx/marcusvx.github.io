@@ -1,4 +1,73 @@
-.menuTriggerBtn {
+<script setup>
+import { ref } from 'vue';
+
+const visible = ref(false);
+
+const toggleVisibility = () => {
+  document.body.style.overflow = visible.value ? 'visible' : 'hidden';
+  visible.value = !visible.value;
+};
+
+const handleClick = (event) => {
+  event.preventDefault();
+  const anchorElement = event.target.getAttribute('href');
+  const target = document.querySelector(anchorElement);
+  const y = target.getBoundingClientRect().top + window.scrollY;
+
+  window.scroll({
+    top: y - 30,
+    behavior: 'smooth',
+  });
+
+  toggleVisibility();
+};
+</script>
+
+<template>
+  <div class="menu-trigger-btn" @click="toggleVisibility">
+    <span/>
+    <span/>
+    <span/>
+  </div>
+  <div class="menu-overlay" :class="(visible ? 'shown' : '')">
+    <nav class="main-menu">
+      <ul>
+        <li>
+          <a href="#hero" @click="handleClick">
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="#about_me" @click="handleClick">
+            about me
+          </a>
+        </li>
+        <li>
+          <a href="#skills" @click="handleClick">
+            skills
+          </a>
+        </li>
+        <li>
+          <a href="#experiences" @click="handleClick">
+            Experiences
+          </a>
+        </li>
+        <li>
+          <a href="#contact_me" @click="handleClick">
+            Contact Me
+          </a>
+        </li>
+      </ul>
+
+      <div class="close-menu-btn" @click="toggleVisibility">
+        <i class="fas fa-times"/>
+      </div>
+    </nav>
+  </div>
+</template>
+
+<style lang="scss">
+.menu-trigger-btn {
   width: 35px;
   cursor: pointer;
 
@@ -8,10 +77,6 @@
     height: 2px;
     width: 28px;
     margin-bottom: 5px;
-    -webkit-transition: all 0.5s cubic-bezier(0.86, 0, 0.07, 1);
-    -moz-transition: all 0.5s cubic-bezier(0.86, 0, 0.07, 1);
-    -ms-transition: all 0.5s cubic-bezier(0.86, 0, 0.07, 1);
-    -o-transition: all 0.5s cubic-bezier(0.86, 0, 0.07, 1);
     transition: all 0.5s cubic-bezier(0.86, 0, 0.07, 1);
 
     &:nth-child(2) {
@@ -34,7 +99,7 @@
   }
 }
 
-.menuOverlay {
+.menu-overlay {
   position: fixed;
   top: 0;
   left: 0;
@@ -56,9 +121,8 @@
     transform: translateY(0);
   }
 
-  & .mainMenu {
+  & .main-menu {
     & ul {
-      margin: 0;
       padding: 0;
       list-style: none;
       margin-top: 50px;
@@ -104,7 +168,7 @@
       }
     }
 
-    & .closeMenuBtn {
+    & .close-menu-btn {
       position: absolute;
       top: 20px;
       right: 10%;
@@ -119,3 +183,5 @@
     }
   }
 }
+
+</style>
