@@ -3,6 +3,7 @@ import MainHeader from '@/components/MainHeader.vue'
 import HomeHero from '@/components/HomeHero.vue'
 import AboutMe from '@/components/AboutMe.vue'
 import TechnicalSkills from '@/components/TechnicalSkills.vue'
+import ProfessionalExperiences from '@/components/ProfessionalExperiences.vue'
 </script>
 
 <template>
@@ -10,6 +11,7 @@ import TechnicalSkills from '@/components/TechnicalSkills.vue'
   <HomeHero />
   <AboutMe />
   <TechnicalSkills :key="$i18n.locale" />
+  <ProfessionalExperiences :key="$i18n.locale" />
 </template>
 
 <style scoped></style>
