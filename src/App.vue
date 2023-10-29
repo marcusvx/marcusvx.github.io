@@ -4,6 +4,7 @@ import HomeHero from '@/components/HomeHero.vue'
 import AboutMe from '@/components/AboutMe.vue'
 import TechnicalSkills from '@/components/TechnicalSkills.vue'
 import ProfessionalExperiences from '@/components/ProfessionalExperiences.vue'
+import QuoteSection from '@/components/QuoteSection.vue'
 </script>
 
 <template>
@@ -12,6 +13,9 @@ import ProfessionalExperiences from '@/components/ProfessionalExperiences.vue'
   <AboutMe />
   <TechnicalSkills :key="$i18n.locale" />
   <ProfessionalExperiences :key="$i18n.locale" />
+  <QuoteSection author="Martin Fowler" :reference="$t('quote.reference')">
+    {{ $t('quote.text') }}
+  </QuoteSection>
 </template>
 
 <style scoped></style>
