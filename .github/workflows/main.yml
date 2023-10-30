@@ -33,6 +33,12 @@ jobs:
           php_version: "7.4.33"
           working_dir: "server"
 
+      - name: Make the script files executable
+        run: chmod +x ./scripts/copy-server-dist.sh
+
+      - name: Run a script
+        run: ./scripts/copy-server-dist.sh
+
       - name: Create server env file
         uses: SpicyPizza/create-envfile@v2.0
         with:
