@@ -5,6 +5,7 @@ import AboutMe from '@/components/AboutMe.vue'
 import TechnicalSkills from '@/components/TechnicalSkills.vue'
 import ProfessionalExperiences from '@/components/ProfessionalExperiences.vue'
 import QuoteSection from '@/components/QuoteSection.vue'
+import ContactForm from '@/components/ContactForm.vue'
 </script>
 
 <template>
@@ -16,6 +17,7 @@ import QuoteSection from '@/components/QuoteSection.vue'
   <QuoteSection author="Martin Fowler" :reference="$t('quote.reference')">
     {{ $t('quote.text') }}
   </QuoteSection>
+  <ContactForm />
 </template>
 
 <style scoped></style>

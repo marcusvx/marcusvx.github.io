@@ -8,15 +8,7 @@ function toggleMenu() {
   menuActive.value = !menuActive.value
 }
 </script>
-<style lang="scss">
-@import 'bulma/sass/utilities/_all.sass';
-@import 'bulma/sass/components/navbar';
-@import 'bulma/sass/components/menu';
-@import 'bulma/sass/form/shared';
-@import 'bulma/sass/form/select';
-@import 'bulma/sass/form/tools';
-@import 'bulma/sass/elements/icon';
-</style>
+
 <template>
   <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
@@ -71,3 +63,13 @@ function toggleMenu() {
     </div>
   </nav>
 </template>
+
+<style lang="scss">
+@import 'bulma/sass/utilities/_all.sass';
+@import 'bulma/sass/components/navbar';
+@import 'bulma/sass/components/menu';
+@import 'bulma/sass/form/shared';
+@import 'bulma/sass/form/select';
+@import 'bulma/sass/form/tools';
+@import 'bulma/sass/elements/icon';
+</style>
