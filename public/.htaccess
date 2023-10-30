@@ -1,0 +1,11 @@
+RewriteEngine On
+
+# Redirect /api/contact to /api/contact.php
+RewriteRule ^api/contact$ /api/contact.php [L]
+
+# Enable CORS headers for POST requests from marcusvinicius.info
+<IfModule mod_headers.c>
+    SetEnvIfNoCase Request_Method "^POST$" IS_POST_REQUEST
+    Header always set Access-Control-Allow-Origin "http://marcusvinicius.info" env=IS_POST_REQUEST
+    Header always set Access-Control-Allow-Methods "POST" env=IS_POST_REQUEST
+</IfModule>

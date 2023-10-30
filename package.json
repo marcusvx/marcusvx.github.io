@@ -1,60 +1,33 @@
 {
+  "name": "personal-site",
+  "version": "0.0.0",
   "private": true,
-  "name": "personal-site-frontend",
-  "version": "1.1.1",
-  "license": "MIT",
   "scripts": {
-    "build": "preact build --no-prerender --no-inline-css",
-    "ci": "npm install && npm run build",
-    "dev": "preact watch",
-    "format": "npm run format:eslint && yarn format:prettier",
-    "format:eslint": "eslint --fix --quiet src/",
-    "format:prettier": "prettier --write .",
-    "lint": "eslint src",
-    "serve": "sirv build --port 8080 --cors --single"
-  },
-  "eslintConfig": {
-    "extends": "preact",
-    "ignorePatterns": [
-      "build/"
-    ]
-  },
-  "devDependencies": {
-    "eslint": "^8.51.0",
-    "eslint-config-preact": "^1.3.0",
-    "eslint-plugin-react": "^7.33.2",
-    "jest": "^29.7.0",
-    "preact-cli": "^3.5.0",
-    "prettier": "3.0.3",
-    "sass": "^1.69.3",
-    "sass-loader": "^10.2.0",
-    "sirv-cli": "^2.0.2"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write src/"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.4.2",
-    "@preact/signals": "^1.2.1",
-    "axios": "^1.5.1",
+    "axios": "^1.6.0",
     "bulma": "^0.9.4",
     "bulma-timeline": "^3.0.5",
-    "classnames": "^2.2.6",
-    "countup.js": "^2.0.6",
+    "countup.js": "^2.8.0",
     "dayjs": "^1.11.10",
     "easy-pie-chart": "^2.1.7",
-    "preact": "^10.18.1",
-    "preact-i18n": "2.4.0-preactx",
-    "react-hook-form": "^7.47.0",
-    "react-in-viewport": "^1.0.0-alpha.14"
+    "vue": "^3.3.4",
+    "vue-i18n": "^9.6.1"
   },
-  "jest": {
-    "preset": "jest-preset-preact",
-    "setupFiles": [
-      "<rootDir>/tests/__mocks__/browserMocks.js",
-      "<rootDir>/tests/__mocks__/setupTests.js"
-    ]
-  },
-  "overrides": {
-    "preact-cli": {
-      "typescript": "~4.6.2"
-    }
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.3.3",
+    "@vitejs/plugin-vue": "^4.4.0",
+    "@vue/eslint-config-prettier": "^8.0.0",
+    "eslint": "^8.49.0",
+    "eslint-plugin-vue": "^9.17.0",
+    "prettier": "^3.0.3",
+    "sass": "^1.69.5",
+    "vite": "^4.4.11"
   }
 }
