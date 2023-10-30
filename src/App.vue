@@ -6,6 +6,7 @@ import TechnicalSkills from '@/components/TechnicalSkills.vue'
 import ProfessionalExperiences from '@/components/ProfessionalExperiences.vue'
 import QuoteSection from '@/components/QuoteSection.vue'
 import ContactForm from '@/components/ContactForm.vue'
+import SiteFooter from '@/components/SiteFooter.vue'
 </script>
 
 <template>
@@ -18,6 +19,7 @@ import ContactForm from '@/components/ContactForm.vue'
     {{ $t('quote.text') }}
   </QuoteSection>
   <ContactForm />
+  <SiteFooter />
 </template>
 
 <style scoped></style>
