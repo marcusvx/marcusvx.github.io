@@ -36,7 +36,7 @@ jobs:
       - name: Make the script files executable
         run: chmod +x ./scripts/copy-server-dist.sh
 
-      - name: Run a script
+      - name: Run script to move all required server files
         run: ./scripts/copy-server-dist.sh
 
       - name: Create server env file
@@ -55,6 +55,6 @@ jobs:
           server: ${{ vars.FTP_HOSTNAME }}
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./build/
+          local-dir: ./dist/
           server-dir: ./public_html/
           dangerous-clean-slate: true
