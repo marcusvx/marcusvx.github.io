@@ -19,8 +19,11 @@ jobs:
           node-version: 18.15.x
           cache: npm
 
-      - name: Install dependencies and build
-        run: npm run ci
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run build
+        run: npm run build
 
       - name: Install server dependencies
         uses: "php-actions/composer@v6"

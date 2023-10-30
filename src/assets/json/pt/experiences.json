@@ -62,7 +62,14 @@
       "Nesse papel, minhas responsabilidades incluíram refatoração de código, criação de testes unitários e de integração, e desenvolvimento de scripts para automação de testes unitários em pipelines de CI/CD.",
       "Também desempenhei um papel fundamental na definição de padrões e estratégias para implementar efetivamente testes unitários em aplicações existentes, garantindo uma cobertura abrangente de código e melhoria da qualidade."
     ],
-    "keywords": ["TDD", "Testes Unitários", "CI/CD", "Automatização de Testes", "Java", ".Net Framework"]
+    "keywords": [
+      "TDD",
+      "Testes Unitários",
+      "CI/CD",
+      "Automatização de Testes",
+      "Java",
+      ".Net Framework"
+    ]
   },
   {
     "company": "Digitalmed Technology",
