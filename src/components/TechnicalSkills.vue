@@ -64,18 +64,6 @@ onMounted(() => {
 @import 'bulma/sass/helpers/spacing';
 
 .technical-skills {
-  &::before {
-    bottom: 0;
-    content: '';
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: $fullWidth;
-    height: $fullWidth;
-    z-index: 0;
-  }
-
   @extend .section;
 
   .container {
