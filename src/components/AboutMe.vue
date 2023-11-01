@@ -127,10 +127,7 @@ import AccordionSection from '@/components/Accordion/AccordionSection.vue'
       max-width: 200px;
       margin: auto;
       border-radius: 50%;
-      border: 2px solid #dedede;
-      background: #fff;
       padding: 7px;
-      box-shadow: 0 7px 10px #999;
     }
   }
 
@@ -152,7 +149,6 @@ import AccordionSection from '@/components/Accordion/AccordionSection.vue'
 
     span {
       margin: 5px 0 10px;
-      color: #555;
     }
 
     .social-link {

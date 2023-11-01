@@ -50,13 +50,12 @@
 @import '../styles/index.scss';
 
 .footer {
-  background: $dark;
+  background: $dark2;
   text-align: center;
 
   .footer-container {
     .footer-row {
       .follow-me {
-        background: $white;
         border-radius: 0 0 10px 10px;
         display: inline-block;
         font-weight: 700;
@@ -64,24 +63,6 @@
         position: relative;
         text-transform: capitalize;
         width: 130px;
-
-        &:before {
-          border-right: 10px solid $lightGray;
-          border-top: 10px solid transparent;
-          content: '';
-          left: -10px;
-          position: absolute;
-          top: -10px;
-        }
-
-        &:after {
-          border-left: 10px solid $lightGray;
-          border-top: 10px solid transparent;
-          content: '';
-          left: 170px;
-          position: absolute;
-          top: -10px;
-        }
       }
 
       .icon-wrapper {

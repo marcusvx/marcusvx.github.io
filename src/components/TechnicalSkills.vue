@@ -70,15 +70,11 @@ onMounted(() => {
     @extend .container;
   }
 
-  background-color: $dark;
+  background-color: $dark2;
 
   h2 {
     color: #eaeaea;
     position: relative;
-  }
-
-  .heading-line {
-    background: #fff;
   }
 
   .skills-wrapper {

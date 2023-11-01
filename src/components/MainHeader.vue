@@ -1,21 +1,22 @@
 <!--suppress HtmlUnknownAnchorTarget -->
 <script setup>
-import { ref } from 'vue'
+import { inject, ref } from 'vue'
 
 const menuActive = ref(false)
 
 function toggleMenu() {
   menuActive.value = !menuActive.value
 }
+
+const { darkMode, toggleDarkMode } = inject('darkMode')
+
+console.log('dark mode: ', darkMode)
 </script>
 
 <template>
   <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <a href="/" class="navbar-item">
-        <i class="fas fa-terminal" />
-        marcusvinicius.info
-      </a>
+      <a href="/" class="navbar-item"> marcusvinicius.info </a>
       <a
         role="button"
         class="navbar-burger"
@@ -41,6 +42,21 @@ function toggleMenu() {
       </div>
 
       <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="field">
+            <i class="fa fa-sun"></i>
+            <input
+              id="theme-switch"
+              type="checkbox"
+              class="switch is-rounded"
+              :checked="darkMode"
+              @change="toggleDarkMode"
+            />
+            <label for="theme-switch">
+              <i class="fa fa-moon"></i>
+            </label>
+          </div>
+        </div>
         <div class="navbar-item">
           <div class="control has-icons-left">
             <div class="select">
@@ -72,4 +88,15 @@ function toggleMenu() {
 @import 'bulma/sass/form/select';
 @import 'bulma/sass/form/tools';
 @import 'bulma/sass/elements/icon';
+
+$switch-background-active: $dark;
+@import 'bulma-switch/src/sass/index';
+
+.navbar-item {
+  .field {
+    .fa-sun {
+      margin-right: 6px;
+    }
+  }
+}
 </style>

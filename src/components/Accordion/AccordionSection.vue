@@ -21,7 +21,7 @@ const toggleActive = () => {
 
 <template>
   <div class="accordion-item" ref="accordion">
-    <div class="accordion-title" @click="toggleActive"><i class="fa fa-plus" /> {{ title }}</div>
+    <h4 class="accordion-title" @click="toggleActive"><i class="fa fa-plus" /> {{ title }}</h4>
     <div class="accordion-content">
       <slot></slot>
     </div>
@@ -38,26 +38,19 @@ const toggleActive = () => {
     cursor: pointer;
     position: relative;
     border: 1px solid #ccc;
-    color: #333;
     transition: all 0.3s ease-in-out;
 
     & i {
       position: absolute;
       right: 20px;
       top: 50%;
-      color: $dark;
       transform: translateY(-50%);
       transition: all 0.3s ease-in-out;
     }
 
     &.active {
-      background: $dark;
-      color: #fff;
-      border-color: $dark;
-
       & i {
         transform: translateY(-50%) rotate(45deg);
-        color: #fff;
       }
 
       & .accordion-content {
@@ -75,8 +68,6 @@ const toggleActive = () => {
 
     padding: 0 10px;
     margin: 0;
-    color: #555;
-    background: #f4f4f4;
 
     & p:first-child {
       padding-top: 12px;

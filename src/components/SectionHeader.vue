@@ -1,18 +1,14 @@
-<script setup>
-defineProps({
-  darkBg: Boolean
-})
-</script>
+<script setup></script>
 
 <template>
   <div class="section-header">
     <h2 class="main-heading">
       <slot name="title"></slot>
     </h2>
-    <p class="subtitle" :class="darkBg ? 'dark-bg' : ''" v-if="$slots.subTitle">
+    <p class="subtitle" v-if="$slots.subTitle">
       <slot name="subTitle"></slot>
     </p>
-    <div class="heading-line" :class="darkBg ? 'dark-bg' : ''"></div>
+    <div class="heading-line"></div>
   </div>
 </template>
 
@@ -28,29 +24,20 @@ defineProps({
 
   .subtitle {
     position: relative;
-
-    &.dark-bg {
-      color: $white;
-    }
   }
 
   .main-heading {
-    @extend .main-heading;
+    font-size: 24px;
     margin: 0;
   }
 
   .heading-line {
-    background: $colorDefault;
     display: inline-block;
     height: 3px;
     margin-bottom: 10px;
     margin-top: 10px;
     position: relative;
     width: 100px;
-
-    &.dark-bg {
-      background: $white;
-    }
   }
 }
 </style>
