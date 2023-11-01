@@ -26,7 +26,7 @@ defineProps({
 
 .quote {
   padding: 80px 0;
-  background-color: $dark;
+  background-color: $dark2;
 
   .quote-wrapper {
     text-align: center;

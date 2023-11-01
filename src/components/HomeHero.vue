@@ -1,3 +1,4 @@
+<!--suppress HtmlUnknownAnchorTarget -->
 <template>
   <section id="home" class="hero">
     <div class="content">
@@ -7,8 +8,8 @@
       <div>
         <TypedText :text="$t('hero.subtitle')"></TypedText>
       </div>
-      <a class="button" href="#about_me"> Read more </a>
-      <a class="button" href="#contact_me"> Contact Me </a>
+      <a class="button" href="#about"> Read more </a>
+      <a class="button" href="#contact"> Contact Me </a>
     </div>
   </section>
 </template>
@@ -18,14 +19,13 @@
 @import 'bulma/sass/components/navbar';
 
 .hero {
-  @extend .has-overlay;
   position: relative;
   width: 100%;
   height: 100vh;
   overflow: hidden;
   background-size: cover;
   z-index: 1;
-  background-color: $dark;
+  background-color: $dark2;
 
   .content {
     position: absolute;

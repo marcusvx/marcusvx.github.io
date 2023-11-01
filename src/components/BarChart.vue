@@ -76,11 +76,5 @@ $barHeight: 15px;
   padding: 10px 20px;
   margin-bottom: 10px;
   text-transform: uppercase;
-  transition: all 0.3s;
-
-  &:hover {
-    background: #fff;
-    color: #111;
-  }
 }
 </style>

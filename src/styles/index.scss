@@ -1,5 +1,6 @@
 @import './variables.scss';
 @import 'bulma/sass/utilities/_all.sass';
+@import "./themes";
 
 html {
   scroll-behavior: smooth;
@@ -12,50 +13,6 @@ body {
   line-height: 1.65;
   position: relative;
   margin: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
-  color: $colorDefault;
-  font-family: 'Jura', sans-serif;
-  font-weight: 700;
-}
-
-p {
-  color: #777777;
-  font-weight: 400;
-}
-
-a {
-  color: $black;
-  font-family: 'Jura', sans-serif;
-  font-weight: 700;
-  text-decoration: none;
-  transition: all 0.3s ease;
-
-  &:hover {
-    color: $black;
-    font-family: 'Jura', sans-serif;
-    font-weight: 700;
-    text-decoration: none;
-  }
-
-  &:focus {
-    color: $black;
-    font-family: 'Jura', sans-serif;
-    font-weight: 700;
-    text-decoration: none;
-  }
 }
 
 button,
@@ -79,56 +36,9 @@ option {
   font-family: 'Jura', sans-serif;
 }
 
-.main-heading {
-  font-size: 24px;
-  margin: 0 auto;
-}
-
 .section {
   padding: 80px 0 40px;
   text-align: center;
-}
-
-.has-overlay {
-  position: relative;
-
-  &::before {
-    background-color: rgba(0, 0, 0, 0.75);
-    bottom: 0;
-    content: '';
-    height: 100%;
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: $fullWidth;
-  }
-}
-
-.has-bg {
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.main-para {
-  margin: 0 auto;
-}
-
-.center {
-  text-align: center;
-}
-
-.left {
-  float: left;
-}
-
-.right {
-  float: right;
-}
-
-.mb-40 {
-  margin-bottom: 40px !important;
 }
 
 .main-btn {
@@ -155,21 +65,4 @@ option {
 
 .dark-btn {
   @include button-variant($colorDefault, $colorDefault, $white);
-}
-
-.line-btn {
-  font-size: 14px;
-
-  i {
-    font-size: 16px;
-    margin-left: 3px;
-    transition: all 0.3s ease-in-out;
-    vertical-align: middle;
-  }
-
-  &:hover {
-    i {
-      margin-left: 8px;
-    }
-  }
 }

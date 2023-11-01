@@ -30,5 +30,7 @@ const props = defineProps({
 </style>
 
 <template>
-  <div class="wrapper" :style="{ width: `${props.text.length}ch` }">{{ text }}</div>
+  <div class="wrapper" :style="{ width: `${props.text.length + 2}ch` }">
+    <i class="fas fa-terminal" /> {{ text }}
+  </div>
 </template>

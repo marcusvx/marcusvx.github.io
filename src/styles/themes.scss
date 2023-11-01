@@ -1,0 +1,112 @@
+@import "variables";
+
+@mixin themed($theme-name, $font-color-1, $font-color-2, $bg-color-1, $bg-color-2, $button-bg) {
+  .#{$theme-name} {
+    background-color: $bg-color-1;
+
+    .navbar {
+      background-color: $bg-color-1;
+
+      i {
+        color: $font-color-1;
+      }
+    }
+
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $font-color-1;
+      font-family: 'Jura', sans-serif;
+      font-weight: 700;
+    }
+
+    .technical-skills {
+      h2, p {
+        color: $white;
+      }
+      .section-header {
+        .heading-line {
+          background: $white;
+        }
+      }
+    }
+
+    p, label {
+      color: $font-color-1;
+      font-weight: 400;
+    }
+
+    a {
+      color: $font-color-1;
+      font-family: 'Jura', sans-serif;
+      font-weight: 700;
+      text-decoration: none;
+
+      & span {
+        color: $font-color-1;
+      }
+
+      &:hover, & span:hover {
+        color: $font-color-2;
+        font-family: 'Jura', sans-serif;
+        font-weight: 700;
+      }
+
+      &:focus, & span:focus {
+        color: $font-color-2;
+        font-family: 'Jura', sans-serif;
+        font-weight: 700;
+        text-decoration: none;
+      }
+    }
+
+    .select {
+      & select {
+        background-color: $bg-color-2;
+        color: $font-color-1;
+      }
+
+      &:not(.is-multiple):not(.is-loading)::after {
+        border-color: $font-color-1;
+      }
+    }
+
+    .section-header {
+      .heading-line {
+        background: $font-color-1;
+      }
+    }
+
+    .accordion-item {
+      & .accordion-title {
+        color: $font-color-1;
+        background-color: $bg-color-1;
+
+        &.active {
+          color: $bg-color-2;
+          background-color: $font-color-1;
+        }
+      }
+
+      & .active {
+        color: $font-color-1;
+      }
+
+      & .accordion-content {
+        background-color: $bg-color-2;
+      }
+    }
+
+    .footer .footer-container .footer-row .follow-me {
+      background-color: $bg-color-1;
+      color: $font-color-1;
+    }
+  }
+}
+
+@include themed(dark-mode, $white, $lightGray, $dark, $dark2, $white);
+@include themed(light-mode, $black, $darkGray, $white, $white2, $dark);

@@ -163,6 +163,7 @@ const resetForm = () => {
       .submit {
         background-color: $dark;
         color: $white;
+        border-color: $white;
         padding: 8px 0;
         cursor: pointer;
         @extend .dark-btn;
@@ -187,7 +188,8 @@ const resetForm = () => {
       @extend .field;
 
       label {
-        @extend .label;
+        margin-bottom: 0.5em;
+        display: block;
         text-align: left;
       }
 
