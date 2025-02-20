@@ -25,7 +25,6 @@ provide('darkMode', { darkMode, toggleDarkMode })
     <QuoteSection author="Martin Fowler" :reference="$t('quote.reference')">
       {{ $t('quote.text') }}
     </QuoteSection>
-    <ContactForm />
     <SiteFooter />
   </div>
 </template>
