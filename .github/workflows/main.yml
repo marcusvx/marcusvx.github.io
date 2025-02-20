@@ -25,30 +25,6 @@ jobs:
       - name: Run build
         run: npm run build
 
-      - name: Install server dependencies
-        uses: "php-actions/composer@v6"
-        env:
-          COMPOSER: "composer.json"
-        with:
-          php_version: "7.4.33"
-          working_dir: "server"
-
-      - name: Make the script files executable
-        run: chmod +x ./scripts/copy-server-dist.sh
-
-      - name: Run script to move all required server files
-        run: ./scripts/copy-server-dist.sh
-
-      - name: Create server env file
-        uses: SpicyPizza/create-envfile@v2.0
-        with:
-          envkey_ENVIRONMENT: PRODUCTION
-          envkey_SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
-          directory: dist/api
-          file_name: .env
-          fail_on_empty: false
-          sort_keys: false
-
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
